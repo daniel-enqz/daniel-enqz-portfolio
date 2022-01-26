@@ -10,4 +10,4 @@
 -💞 Currently going through a Computer Science Degree at Tec de Monterrey
 -🌱 "I'm a Software Engineer student and content creator looking to create value to society" 🌎
 -📫 How to reach me dan17.em@gmail.com
-*Here's my YouTube Channel: https://www.youtube.com/channel/UCvZjEjGU4CVIrQknOSMfpXQ*
+-*Here's my YouTube Channel: https://www.youtube.com/channel/UCvZjEjGU4CVIrQknOSMfpXQ*
