@@ -6,7 +6,7 @@
 
 - 👋 Hi, I’m @daniel-enqz
 - 👀 Enrolled at LeWagon Web Deveopment Bootcamp
-- 🚃 Ruby, Python, CSS, HTNL5 
+- 🚃 Ruby, Python, CSS, HTML5, C 
 - 💞 I'm a Computer Scientist student at Tecnologico de Monterrey 🌎
 - 🌱 I'm currently taking Harvard CS50 Introduction to Computer Science course.
 - 📫 How to reach me dan17.em@gmail.com
