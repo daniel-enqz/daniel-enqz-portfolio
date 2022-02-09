@@ -4,11 +4,6 @@
 /* Components File*/
 
 
-
-
-
-
-
 /* General Style Rules for fonts and colors*/
 body {
   background-color: white;
@@ -38,7 +33,7 @@ body {
   font-weight: bold;
   font-size: 25px;
   line-height : 70px;
-  
+
 }
 
 .container {
@@ -157,16 +152,16 @@ body {
   .dropbtn {
     visibility:visible;
     position: fixed;
-    bottom:20px; 
+    bottom:20px;
     right:30px;
   }
 
   .dropdown-content{
     position: fixed;
-    bottom:80px; 
+    bottom:80px;
     right:20px;
   }
-  
+
   .dropdown:hover .dropdown-content {
     display:grid;
   }
@@ -290,4 +285,3 @@ a:hover{
 #intro{
   font-size: 20px;
 }
-
