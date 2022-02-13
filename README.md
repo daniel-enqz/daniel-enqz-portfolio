@@ -17,5 +17,9 @@
 
 <p align="center"><img src="https://profile-counter.glitch.me/{daniel-enqz}/count.svg"></p>
 
-[![Daniel's GitHub Stats](https://github-readme-stats.vercel.app/api?username=daniel-enqz&show_icons=true)](https://github.com/daniel-enqz)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=daniel-enqz&layout=compact)](https://github.com/daniel-enqz/github-readme-stats)
+<a href="https://github-readme-stats.vercel.app/api?username=daniel-enqz&show_icons=true">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=daniel-enqz&repo=github-readme-stats" />
+</a>
+<a href="https://github.com/daniel-enqz/convoychat">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=daniel-enqz&repo=convoychat" />
+</a>
