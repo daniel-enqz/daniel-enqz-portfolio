@@ -1,4 +1,4 @@
-![header.png](https://github.com/daniel-enqz/daniel-enqz/blob/0116a4f65d27da2138f6e2bfce0c8d540ccfb623/website/images/header.png)
+![header.png](https://github.com/daniel-enqz/daniel-enqz/blob/main/website/images/Banner.png)
 
 <h4 align="center">Welcome! Visitor number.....:eyes:</h4>
 <p align="center"><img src="https://profile-counter.glitch.me/{daniel-enqz}/count.svg"></p>
@@ -46,7 +46,7 @@
 
 <h1 align="center">Join the Discord Channel and Twich streams!</h1>
 <p align="center">
-<a href="https://discord.gg/n4PYXTkk" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"></a>  
+<a href="https://discord.gg/n4PYXTkk" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"></a>
 <a href="https://www.twitch.tv/daniel_enqz" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white"></a>
 </p>
 
