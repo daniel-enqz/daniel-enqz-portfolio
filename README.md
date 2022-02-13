@@ -20,5 +20,5 @@
 <br/><br/>
 
 [![Daniel's GitHub Stats](https://github-readme-stats.vercel.app/api?username=daniel-enqz&show_icons=true)](https://github.com/daniel-enqz)
-
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=daniel-enqz&show_icons=true)
 <br/>
