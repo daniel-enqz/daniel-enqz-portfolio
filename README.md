@@ -20,8 +20,9 @@
 
 <a href="https://github.com/daniel-enqz/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=daniel-enqz&langs_count=8&layout=compact&hide_border=true&title_color=0099ff&icon_color=0099ff" /></a>
 
+<p align="center">
 ## Where you can find me...
-<a href="https://colordesigner.io/gradient-generator"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+</p>
 <a href="https://colordesigner.io/gradient-generator"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"/></a>
 <a href="https://colordesigner.io/gradient-generator"><img src="https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white"/></a>
 <a href="https://colordesigner.io/gradient-generator"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
