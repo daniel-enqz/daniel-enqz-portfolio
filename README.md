@@ -20,6 +20,6 @@
 <a href="https://github-readme-stats.vercel.app/api?username=daniel-enqz&show_icons=true">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=daniel-enqz&repo=github-readme-stats" />
 </a>
-<a href="https://github.com/daniel-enqz/convoychat">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=daniel-enqz&repo=convoychat" />
+<a href="https://github.com/daniel-enqz/exercises">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=daniel-enqz&repo=exercises" />
 </a>
