@@ -34,5 +34,5 @@
 <p align="center">
 <a href="https://colordesigner.io/gradient-generator"><img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white"/></a>
 <a href="https://colordesigner.io/gradient-generator"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<\p>
+</p>
 
