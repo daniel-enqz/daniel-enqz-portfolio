@@ -5,6 +5,8 @@
 
 # Tech Stack
 
+# Tools
+
 - 🖖 Hi, I’m Daniel Enqz
 - 👀 Enrolled at LeWagon Web Deveopment Bootcamp
 - 🚃 Ruby, Python, CSS, HTML5, C
