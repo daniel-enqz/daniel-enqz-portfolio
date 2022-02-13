@@ -2,6 +2,7 @@
 
 <h4 align="center">Welcome! Visitor number.....:eyes:</h4>
 <p align="center"><img src="https://profile-counter.glitch.me/{daniel-enqz}/count.svg"></p>
+<p align="right"><img src="http://ForTheBadge.com/images/badges/built-with-love.svg"></p>
 
 # Tech Stack
 <p>
