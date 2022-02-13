@@ -17,9 +17,5 @@
 
 <p align="center"><img src="https://profile-counter.glitch.me/{daniel-enqz}/count.svg"></p>
 
-<br/><br/>
-
 [![Daniel's GitHub Stats](https://github-readme-stats.vercel.app/api?username=daniel-enqz&show_icons=true)](https://github.com/daniel-enqz)
-
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=daniel-enqz&show_icons=true)
-<br/>
