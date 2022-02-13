@@ -17,6 +17,6 @@
 
 <p align="center"><img src="https://profile-counter.glitch.me/{daniel-enqz}/count.svg"></p>
 
-<a href="https://github.com/daniel-enqz/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=daniel-enqz&count_private=true&show_icons=true&bg_color=45,6eb0fa,57bcff,3bc7ff,10d2ff,00dcff,00e6ff,07effa&hide_border=true&title_color=0A0000,icon_color=0A0000" alt="Daniel's github stats" /></a> 
+<a href="https://github.com/daniel-enqz/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=daniel-enqz&count_private=true&show_icons=true&bg_color=45,6eb0fa,57bcff,3bc7ff,10d2ff,00dcff,00e6ff,07effa&hide_border=true&title_color=0A0000&icon_color=0A0000" alt="Daniel's github stats" /></a> 
 
 <a href="https://github.com/daniel-enqz/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=daniel-enqz&langs_count=8&layout=compact&theme=swift" /></a>
