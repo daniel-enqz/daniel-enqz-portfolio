@@ -20,6 +20,6 @@
 <a href="https://github.com/daniel-enqz/github-readme-stats">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=daniel-enqz&langs_count=8&layout=compact" />
 </a>
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=anuraghazra&count_private=true" />
+<a href="https://github.com/daniel-enqz/github-readme-stats">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=daniel-enqz&count_private=true" />
 </a>
