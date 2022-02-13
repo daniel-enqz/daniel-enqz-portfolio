@@ -2,7 +2,7 @@
 >## _**"Connect, creating something creative"⬇️⬇️⬇️⬇️**_
 
 
-## _*HELLO👋:(https://daniel-enqz.github.io/daniel-enqz/).*_ 
+## _*HELLO👋*_ 
 
 - 🖖 Hi, I’m Daniel Enqz
 - 👀 Enrolled at LeWagon Web Deveopment Bootcamp
