@@ -12,3 +12,10 @@
 - 📫 How to reach me dan17.em@gmail.com
 - *Here's my YouTube Channel: https://www.youtube.com/channel/UCvZjEjGU4CVIrQknOSMfpXQ*
 - *Check mt website here: https://daniel-enqz.github.io/daniel-enqz/*
+
+<h4 align="center">Welcome! Visitor number.....:eyes:</h4>
+
+<p align="center"><img src="https://profile-counter.glitch.me/{daniel-enqz}/count.svg"></p>
+
+<img align="center" src="https://github-readme-stats.vercel.app/api?username=daniel-enqz&show_icons=true" />
+<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=daniel-enqz&layout=compact" />
