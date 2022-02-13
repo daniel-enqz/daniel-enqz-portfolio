@@ -3,7 +3,9 @@
 <h4 align="center">Welcome! Visitor number.....:eyes:</h4>
 <p align="center"><img src="https://profile-counter.glitch.me/{daniel-enqz}/count.svg"></p>
 <p align="center"><img src="http://ForTheBadge.com/images/badges/built-with-love.svg"></p>
-<i class="fa-solid fa-badge-check"></i>
+<button type="button" class="btn btn-primary">
+  Notifications<span class="badge bg-danger ms-2">8</span>
+</button>
 
 # Tech Stack
 <p>
