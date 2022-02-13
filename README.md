@@ -22,8 +22,8 @@
 
 <h1 align="center">Join the Discord Channel and Twich streams!</h1>
 <p align="center">
-<a href="https://discord.gg/n4PYXTkk" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"></a>
-<a href="https://www.twitch.tv/daniel_enqz" target="_blank"><img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white"></a> 
+<a href="https://discord.gg/n4PYXTkk" target="_blank" rel="noopener noreferrer">img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"</a>
+<a href="https://www.twitch.tv/daniel_enqz" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white"></a>
 </p>
 
 <h2 align="center">Where you can find me....</h2>
