@@ -36,9 +36,6 @@
 <p align="center">
 💞 Computer Scientist student at Tecnologico de Monterrey 🌎
 </p>
-<p align="center">
-*Check mt website here: https://daniel-enqz.github.io/daniel-enqz/*
-</p>
 
 <h1 align="center">STATS</h1>
 <p align="center">
