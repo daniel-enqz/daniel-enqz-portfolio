@@ -1,7 +1,7 @@
 # daniel-enqz
 >## _**"Connect, creating something creative"⬇️⬇️⬇️⬇️**_
 
-![head.png](https://github.com/daniel-enqz/daniel-enqz/tree/main/website/images/header.png)
+![head.png](https://github.com/daniel-enqz/daniel-enqz/tree/main/website/images/head.png)
 
 ## _*HELLO👋*_ 
 
