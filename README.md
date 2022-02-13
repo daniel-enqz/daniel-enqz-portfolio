@@ -1,4 +1,8 @@
-<img align="center">![header.png](assets/Banner.png)</img>
+<p align="center">
+  <img src="assets/Banner.png" />
+</p>
+
+
 
 <h4 align="center">Welcome! Visitor number.....:eyes:</h4>
 <p align="center"><img src="https://profile-counter.glitch.me/{daniel-enqz}/count.svg"></p>
