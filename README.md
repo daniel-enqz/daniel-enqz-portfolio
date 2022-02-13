@@ -1,4 +1,4 @@
-<p align="center">![header.png](assets/Banner.png)</p>
+<img align="center">![header.png](assets/Banner.png)</img>
 
 <h4 align="center">Welcome! Visitor number.....:eyes:</h4>
 <p align="center"><img src="https://profile-counter.glitch.me/{daniel-enqz}/count.svg"></p>
