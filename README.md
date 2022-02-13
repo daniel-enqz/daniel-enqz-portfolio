@@ -13,7 +13,7 @@
 - *Here's my YouTube Channel: https://www.youtube.com/channel/UCvZjEjGU4CVIrQknOSMfpXQ*
 - *Check mt website here: https://daniel-enqz.github.io/daniel-enqz/*
 
-<h4 align="center">Visitor's count :eyes:</h4>
+<h4 align="center">Welcome! Vistor number.....:eyes:</h4>
 
 <p align="center"><img src="https://profile-counter.glitch.me/{daniel-enqz}/count.svg"></p>
 
