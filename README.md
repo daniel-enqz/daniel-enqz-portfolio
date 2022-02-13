@@ -19,6 +19,6 @@
 
 <br/><br/>
 
-[![Shivam's GitHub Stats](https://github-readme-stats.vercel.app/api?username=shivam0110&show_icons=true)](https://github.com/shivam0110)
+[![Daniel's GitHub Stats](https://github-readme-stats.vercel.app/api?username=daniel-enqz&show_icons=true)](https://github.com/daniel-enqz)
 
 <br/>
