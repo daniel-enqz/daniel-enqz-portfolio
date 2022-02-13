@@ -15,4 +15,4 @@
 
 <h4 align="center">Visitor's count :eyes:</h4>
 
-<p align="center">![Visitor Count](https://profile-counter.glitch.me/{daniel-enqz}/count.svg)</p>
+<p align="center"><img src="https://profile-counter.glitch.me/{daniel-enqz}/count.svg"></p>
