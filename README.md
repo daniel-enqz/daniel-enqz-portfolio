@@ -1,13 +1,9 @@
 ![header.png](https://github.com/daniel-enqz/daniel-enqz/blob/0116a4f65d27da2138f6e2bfce0c8d540ccfb623/website/images/header.png)
-<<<<<<< HEAD
-
 
 ![stack.png](https://github.com/daniel-enqz/daniel-enqz/blob/main/website/images/stack.png)
-## _*HELLO👋*_
-=======
+
 <h4 align="center">Welcome! Visitor number.....:eyes:</h4>
 <p align="center"><img src="https://profile-counter.glitch.me/{daniel-enqz}/count.svg"></p>
->>>>>>> b074d04032aaff70c3e93f6a97842c84946bca3d
 
 - 🖖 Hi, I’m Daniel Enqz
 - 👀 Enrolled at LeWagon Web Deveopment Bootcamp
