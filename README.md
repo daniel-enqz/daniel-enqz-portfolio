@@ -1,6 +1,3 @@
-# daniel-enqz
->## _**"Connect, creating something creative"⬇️⬇️⬇️⬇️**_
-
 ![header.png](https://github.com/daniel-enqz/daniel-enqz/blob/0116a4f65d27da2138f6e2bfce0c8d540ccfb623/website/images/header.png)
 - 🖖 Hi, I’m Daniel Enqz
 - 👀 Enrolled at LeWagon Web Deveopment Bootcamp
