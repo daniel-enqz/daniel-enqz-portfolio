@@ -1,8 +1,7 @@
 ![header.png](https://github.com/daniel-enqz/daniel-enqz/blob/0116a4f65d27da2138f6e2bfce0c8d540ccfb623/website/images/header.png)
 
 <h4 align="center">Welcome! Visitor number.....:eyes:</h4>
-<p align="center"><img src="https://profile-counter.glitch.me/{daniel-enqz}/count.svg"></p>
-<p align="right"><img src="http://ForTheBadge.com/images/badges/built-with-love.svg"></p>
+<p align="center"><img src="https://profile-counter.glitch.me/{daniel-enqz}/count.svg"></p><p align="right"><img src="http://ForTheBadge.com/images/badges/built-with-love.svg"></p>
 
 # Tech Stack
 <p>
