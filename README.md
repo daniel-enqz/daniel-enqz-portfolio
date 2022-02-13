@@ -37,7 +37,7 @@
 💞 Computer Scientist student at Tecnologico de Monterrey 🌎
 </p>
 <p align="center">
-[![Website cv.lbesson.qc.to](https://img.shields.io/website-up-down-green-red/http/cv.lbesson.qc.to.svg)]()
+[![Website cv.lbesson.qc.to](https://img.shields.io/website-up-down-green-red/http/cv.lbesson.qc.to.svg)](https://daniel-enqz.github.io/website/)
 </p>
 
 <h1 align="center">STATS</h1>
