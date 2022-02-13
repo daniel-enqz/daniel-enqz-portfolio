@@ -25,10 +25,23 @@
 
 <h1 align="center">Stuff I'm doing at the moment</h1>
 <p align="center">
-- 👀 Enrolled at LeWagon Web Deveopment Bootcamp | Learning new tools such as....()
-- 💞 Computer Scientist student at Tecnologico de Monterrey 🌎
-- 🌱 I'm currently taking Harvard CS50 Introduction to Computer Science course.
-- *Check mt website here: https://daniel-enqz.github.io/daniel-enqz/*
+👀 Enrolled at LeWagon Web Deveopment Bootcamp and Learning new tools such as....()
+<img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white">
+<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white">
+<img src="https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white">
+<img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white">
+<img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white">
+<img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white">
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+</p>
+<p align="center">
+💞 Computer Scientist student at Tecnologico de Monterrey 🌎
+</p>
+<p align="center">
+🌱 I'm currently taking Harvard CS50 Introduction to Computer Science course.
+</p>
+<p align="center">
+*Check mt website here: https://daniel-enqz.github.io/daniel-enqz/*
 </p>
 
 <p align="center">
