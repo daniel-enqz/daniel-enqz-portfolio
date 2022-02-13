@@ -18,4 +18,4 @@
 <p align="center"><img src="https://profile-counter.glitch.me/{daniel-enqz}/count.svg"></p>
 
 [![Daniel's GitHub Stats](https://github-readme-stats.vercel.app/api?username=daniel-enqz&show_icons=true)](https://github.com/daniel-enqz)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=daniel-enqz&show_icons=true)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=daniel-enqz&langs_count=8)](https://github.com/daniel-enqz/github-readme-stats)
