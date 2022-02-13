@@ -50,7 +50,7 @@
 <p align="center">
 <a href="https://github.com/daniel-enqz/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=daniel-enqz&count_private=true&show_icons=true&hide_border=true&title_color=0099ff&icon_color=0099ff" alt="Daniel's github stats" /></a>
 <br><br>
-<a href="https://github.com/daniel-enqz/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=daniel-enqz&langs_count=5&layout=compact&hide_border=true&title_color=0099ff&icon_color=0099ff" /></a>
+<a href="https://github.com/daniel-enqz/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=daniel-enqz&langs_count=7&layout=compact&hide_border=true&title_color=0099ff&icon_color=0099ff" /></a>
 </p>
 
 
