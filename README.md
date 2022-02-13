@@ -2,9 +2,9 @@
 >## _**"Connect, creating something creative"⬇️⬇️⬇️⬇️**_
 
 
-## _*Welcome to my Web Page. Check it out [here](https://daniel-enqz.github.io/daniel-enqz/).*_ 
+## _*HELLO👋:(https://daniel-enqz.github.io/daniel-enqz/).*_ 
 
-- 👋 Hi, I’m @daniel-enqz
+- 🖖 Hi, I’m @daniel-enqz
 - 👀 Enrolled at LeWagon Web Deveopment Bootcamp
 - 🚃 Ruby, Python, CSS, HTML5, C 
 - 💞 I'm a Computer Scientist student at Tecnologico de Monterrey 🌎
