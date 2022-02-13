@@ -23,19 +23,19 @@
 <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white">
 </p>
 
-
-- 🖖 Hi, I’m Daniel Enqz
-- 👀 Enrolled at LeWagon Web Deveopment Bootcamp
-- 🚃 Ruby, Python, CSS, HTML5, C
-- 💞 I'm a Computer Scientist student at Tecnologico de Monterrey 🌎
+<h1 align="center">Stuff I'm doing at the moment</h1>
+<p align="center">
+- 👀 Enrolled at LeWagon Web Deveopment Bootcamp | Learning new tools such as....()
+- 💞 Computer Scientist student at Tecnologico de Monterrey 🌎
 - 🌱 I'm currently taking Harvard CS50 Introduction to Computer Science course.
-- 📫 How to reach me dan17.em@gmail.com
-- *Here's my YouTube Channel: https://www.youtube.com/channel/UCvZjEjGU4CVIrQknOSMfpXQ*
 - *Check mt website here: https://daniel-enqz.github.io/daniel-enqz/*
+</p>
 
+<p align="center">
 <a href="https://github.com/daniel-enqz/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=daniel-enqz&count_private=true&show_icons=true&hide_border=true&title_color=0099ff&icon_color=0099ff" alt="Daniel's github stats" /></a>
-
 <a href="https://github.com/daniel-enqz/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=daniel-enqz&langs_count=8&layout=compact&hide_border=true&title_color=0099ff&icon_color=0099ff" /></a>
+</p>
+
 
 <h1 align="center">Join the Discord Channel and Twich streams!</h1>
 <p align="center">
