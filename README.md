@@ -3,7 +3,7 @@
 <h4 align="center">Welcome! Visitor number.....:eyes:</h4>
 <p align="center"><img src="https://profile-counter.glitch.me/{daniel-enqz}/count.svg"></p>
 
-#Tech Stack
+# Tech Stack
 
 - 🖖 Hi, I’m Daniel Enqz
 - 👀 Enrolled at LeWagon Web Deveopment Bootcamp
