@@ -1,4 +1,4 @@
-![header.png](https://github.com/daniel-enqz/daniel-enqz/blob/main/website/images/Banner.png)
+![header.png](assets/Banner.png)
 
 <h4 align="center">Welcome! Visitor number.....:eyes:</h4>
 <p align="center"><img src="https://profile-counter.glitch.me/{daniel-enqz}/count.svg"></p>
