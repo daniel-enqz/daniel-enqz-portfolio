@@ -46,6 +46,9 @@
 💞 Computer Scientist student at Tecnologico de Monterrey 🌎
 </p>
 
+![Jokes Card](https://readme-jokes.vercel.app/api)
+
+
 <h1 align="center">STATS</h1>
 <p align="center">
 <a href="https://github.com/daniel-enqz/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=daniel-enqz&count_private=true&show_icons=true&hide_border=true&title_color=0099ff&icon_color=0099ff" alt="Daniel's github stats" /></a>
