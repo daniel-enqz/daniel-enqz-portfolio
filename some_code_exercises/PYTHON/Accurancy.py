@@ -10,7 +10,7 @@ class color:
     BLUE = '\033[94m'
     PURPLE = '\033[95m'
     CYAN = '\033[96m'
-    BLANCO = '\033[98m' 
+    BLANCO = '\033[98m'
 
 def accurancy():
     received = float(input(color.BOLD+color.CYAN+"Draw a number (0-100) for the program to find it ------>"+color.END))
