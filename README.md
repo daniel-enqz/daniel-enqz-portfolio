@@ -53,8 +53,6 @@
 <a href="https://github.com/daniel-enqz/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=daniel-enqz&langs_count=5&layout=compact&hide_border=true&title_color=0099ff&icon_color=0099ff" /></a>
 </p>
 
-[go](http://stackoverflow.com){:target="_blank" rel="noopener"}
-
 <h1 align="center">Join the Discord Channel and Twich streams!</h1>
 <p align="center">
 <a href="https://discord.gg/n4PYXTkk" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"></a>
