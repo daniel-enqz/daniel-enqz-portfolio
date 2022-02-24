@@ -49,7 +49,7 @@
 
 <h1 align="center">STATS</h1>
 <p align="center">
-<a href="https://github-readme-streak-stats.herokuapp.com?user=daniel-enqz&theme=dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D"><src="https://git.io/streak-stats"/></a>
+<a href="https://github-readme-streak-stats.herokuapp.com?user=daniel-enqz&theme=dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D"><img src="https://git.io/streak-stats"/></a>
 <a href="https://github.com/daniel-enqz/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=daniel-enqz&count_private=true&show_icons=true&hide_border=true&title_color=0099ff&icon_color=0099ff" alt="Daniel's github stats" /></a>
 <br><br>
 <a href="https://github.com/daniel-enqz/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=daniel-enqz&langs_count=10&layout=compact&hide_border=true&title_color=0099ff&icon_color=0099ff" /></a>
