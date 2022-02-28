@@ -2,7 +2,7 @@
   <img src="assets/Banner.png" />
 </p>
 
-<span align="center">Welcome! Visitor number.....:eyes:</span>
+<span>HELLO</span>
 
 <h3 align="center">Welcome! Visitor number.....:eyes:</h3>
 <p align="center"><img src="https://profile-counter.glitch.me/{daniel-enqz}/count.svg"></p>
