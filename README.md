@@ -50,6 +50,7 @@ AirBnB clone but with Music Studios!!!<br>
 [Rails](https://github.com/daniel-enqz/studio)<br>
 Share yur favourite movies with your friends!!!<br> 
 [Rails](https://github.com/daniel-enqz/rails-watch-list)<br>
+[This is an external link to genome.gov] (https://www.genome.gov/)
 <p align="center">
 🌎 Computer Scientist student at Tecnologico de Monterrey 🌎
 </p>
