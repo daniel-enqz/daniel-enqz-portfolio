@@ -46,12 +46,10 @@
 <p align="center">
 🌱 Check some of my recent projects🌱<br>
 AirBnB clone but with Music Studios!!!<br>
-Click [here](quora.com/profile/Ashish-Kulkarni-100) to go to my Quora profile. 
-[Rails](https://github.com/daniel-enqz/studio)<br>
+[Rails](https://github.com/daniel-enqz/studio)
 Share yur favourite movies with your friends!!!<br> 
-[Rails](https://github.com/daniel-enqz/rails-watch-list)<br>
-[This is an external link to genome.gov](https://www.genome.gov/)
-[test](https://github.com/daniel-enqz/studio)
+[Rails](https://github.com/daniel-enqz/rails-watch-list)
+
 <p align="center">
 🌎 Computer Scientist student at Tecnologico de Monterrey 🌎
 </p>
