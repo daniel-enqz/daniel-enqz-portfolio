@@ -39,13 +39,13 @@
 
 <h1 align="center">Stuff I'm doing at the moment</h1>
 <p align="center">
-👀 Creating new tools and Learning new tools such as....
+👀 Learning new tools such as....
 <br><br>
 <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white">
 <img src="https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white">
 </p>
 <p align="center">
-🌱 I have a passion for coding and creating tools people can use.🌱
+🌱 Check some of my recent projects🌱
 <p align="center">
 🌎 Computer Scientist student at Tecnologico de Monterrey 🌎
 </p>
