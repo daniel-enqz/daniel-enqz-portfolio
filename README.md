@@ -48,6 +48,8 @@
 <br>
 [AirBnB clone](https://github.com/daniel-enqz/studio) but with Music Studios!!!
 [Share your favourite movies](https://github.com/daniel-enqz/rails-watch-list) with your friends!!!
+</p>
+
 <p align="center">
 🌎 Computer Scientist student at Tecnologico de Monterrey 🌎
 </p>
