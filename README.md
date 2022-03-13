@@ -36,6 +36,7 @@
 <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white">
 </p>
 
+Click [here](quora.com/profile/Ashish-Kulkarni-100) to go to my Quora profile. 
 
 <h1 align="center">Stuff I'm doing at the moment</h1>
 <p align="center">
@@ -51,7 +52,7 @@ AirBnB clone but with Music Studios!!!<br>
 Share yur favourite movies with your friends!!!<br> 
 [Rails](https://github.com/daniel-enqz/rails-watch-list)<br>
 [This is an external link to genome.gov](https://www.genome.gov/)
-![test](https://github.com/daniel-enqz/studio)
+[test](https://github.com/daniel-enqz/studio)
 <p align="center">
 🌎 Computer Scientist student at Tecnologico de Monterrey 🌎
 </p>
