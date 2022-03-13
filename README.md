@@ -45,8 +45,7 @@
 <img src="https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white">
 </p>
 <p align="center">
-🌱 I'm currently taking Harvard CS50 Introduction to Computer Science course.
-</p>
+I have a passion for coding and creating tools people can use.🌱
 <p align="center">
 💞 Computer Scientist student at Tecnologico de Monterrey 🌎
 </p>
