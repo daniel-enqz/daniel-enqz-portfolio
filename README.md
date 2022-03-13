@@ -46,11 +46,9 @@
 <p align="center">
 🌎 Computer Scientist student at Tecnologico de Monterrey 🌎
 </p>
-<br><br>
+<p align="center">
 🌱 Check some of my recent projects🌱
 </p>
-<br>
-
 [AirBnB clone](https://github.com/daniel-enqz/studio) but with Music Studios!!!<br>
 [Share your favourite movies](https://github.com/daniel-enqz/rails-watch-list) with your friends!!!<br>
 
