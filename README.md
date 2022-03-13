@@ -36,8 +36,6 @@
 <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white">
 </p>
 
-[AirBnB clone](https://github.com/daniel-enqz/studio) but with Music Studios!!!
-
 <h1 align="center">Stuff I'm doing at the moment</h1>
 <p align="center">
 👀 Learning new tools such as....
@@ -49,9 +47,7 @@
 🌱 Check some of my recent projects🌱
 <br>
 [AirBnB clone](https://github.com/daniel-enqz/studio) but with Music Studios!!!
-<br>
 [Share your favourite movies](https://github.com/daniel-enqz/rails-watch-list) with your friends!!!
-<br>
 <p align="center">
 🌎 Computer Scientist student at Tecnologico de Monterrey 🌎
 </p>
