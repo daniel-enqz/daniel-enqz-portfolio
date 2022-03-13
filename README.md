@@ -46,6 +46,8 @@
 </p>
 <p align="center">
 🌱 Check some of my recent projects🌱
+AirBnB clone but with Music Studios!!! [Rails](https://github.com/daniel-enqz/studio)
+Share yur favourite movies with your friends!!! [Rails](https://github.com/daniel-enqz/rails-watch-list)
 <p align="center">
 🌎 Computer Scientist student at Tecnologico de Monterrey 🌎
 </p>
