@@ -44,12 +44,12 @@
 <img src="https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white">
 </p>
 <p align="center">
-🌱 Check some of my recent projects🌱<br>
-AirBnB clone but with Music Studios!!!<br>
-[Rails](https://github.com/daniel-enqz/studio)
-Share yur favourite movies with your friends!!!<br> 
-[Rails](https://github.com/daniel-enqz/rails-watch-list)
-
+🌱 Check some of my recent projects🌱
+<br>
+[AirBnB clone](https://github.com/daniel-enqz/studio) but with Music Studios!!!
+<br>
+[Share your favourite movies](https://github.com/daniel-enqz/rails-watch-list) with your friends!!!
+<br>
 <p align="center">
 🌎 Computer Scientist student at Tecnologico de Monterrey 🌎
 </p>
