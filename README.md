@@ -49,8 +49,8 @@
 <p align="center">
 🌱 Check some of my recent projects🌱
 
--[AirBnB clone](https://github.com/daniel-enqz/studio) but with Music Studios!!!<br>
--[Share your favourite movies](https://github.com/daniel-enqz/rails-watch-list) with your friends!!!<br>
+>- [AirBnB clone](https://github.com/daniel-enqz/studio) but with Music Studios!!!<br>
+>- [Share your favourite movies](https://github.com/daniel-enqz/rails-watch-list) with your friends!!!<br>
 
 </p>
 
