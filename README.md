@@ -39,7 +39,7 @@
 <h1 align="center">Stuff I'm doing at the moment</h1>
 <p align="center">
 👀 Learning new tools such as....
-<br>
+<br><br>
 <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white">
 <img src="https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white">
 <br><br>
