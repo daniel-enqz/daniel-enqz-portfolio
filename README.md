@@ -51,7 +51,6 @@
 
 >- [AirBnB clone](https://github.com/daniel-enqz/studio) but with Music Studios!!!<br>
 >- [Share your favourite movies](https://github.com/daniel-enqz/rails-watch-list) with your friends!!!<br>
-
 </p>
 
 <h1 align="center">STATS</h1>
