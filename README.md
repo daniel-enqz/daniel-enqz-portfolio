@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/Banner.png" />
+  <img src="assets/Intro.png" />
 </p>
 
 <h3 align="center">Welcome! Visitor number.....:eyes:</h3>
