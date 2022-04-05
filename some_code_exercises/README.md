@@ -25,10 +25,25 @@
 >   - O(nlogn) 
 >   - Ω(n)
 > - **_Space Complexty:_** 
->   - O(n) No other varieble than themporary is required_
-> Quicksort
-> Merge Sort
+>   - O(n) No other varieble than themporary is required
+
 > **Selection Sort:** 
-> - _Complexity:_ 
->   - O(n^2) 
->   - Ω(1))
+> - **_Complexity:_** 
+>   - Θ(n^2)
+> - **_Space Complexty:_** 
+>   - (edit here)
+> - **_Explanation:_**
+>   - `This algorithm is called selection sort because it repeatedly selects the next-smallest element and swaps it into place.`
+
+
+> **Quicksort:**
+> - **_Complexity:_** 
+>   - (edit here)
+> - **_Space Complexty:_** 
+>   - (edit here)
+
+> **Merge Sort:**
+> - **_Complexity:_** 
+>   - (edit here)
+> - **_Space Complexty:_** 
+>   - (edit here)
