@@ -29,7 +29,7 @@
 
 > **Selection Sort:** 
 > - **_Complexity:_** 
->   - Θ(n^2)
+>   - Θ(n^2) All cases regardless of the input
 > - **_Space Complexty:_** 
 >   - (edit here)
 > - **_Explanation:_**
