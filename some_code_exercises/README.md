@@ -7,12 +7,12 @@
 
 ## Sorting
 > **Binary Sort:** 
-> - _Complexity:_ 
-> - Θ(nlogn) 
-> - O(nlogn) 
-> - Ω(n)
-> - _Space Complexty:_ 
-> - O(n) No other varieble than themporary is required_
+> - **_Complexity:_** 
+>   - Θ(nlogn) 
+>   - O(nlogn) 
+>   - Ω(n)
+> - **_Space Complexty:_** 
+>   - O(n) No other varieble than themporary is required_
 > Quicksort
 > Merge Sort
 > Selection Sort: _Complexity: O(n^2) ---- Ω(1))_
