@@ -1,9 +1,9 @@
-# Algorithms
+# Algorithms and Data Structures 🥇
 ## Searching
 > **Binary Search:** 
-> - _Complexity: (Running Time/Asymptotic Notation)_ 
-> - O(log n) 
-> - Ω(1))
+> - **_Complexity: (Running Time/Asymptotic Notation)_** 
+>   - O(log n) 
+>   - Ω(1))
 
 ## Sorting
 > **Binary Sort:** 
