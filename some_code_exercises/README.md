@@ -1,6 +1,8 @@
 # Algorithms
 ## Searching
->Binary Search (Complexity: O(log n) ---- O(1))
+> **Binary Search:** _Complexity: O(log n) ---- O(1))_
 
 ## Sorting
->Binary Sort
+> Binary Sort: [Big Theta]: O(nlogn). is [Big O]: O(nlogn). [Big Omega]: O(n) Space Complexty: O(n) No other varieble than themporary is required
+> Quicksort
+> Merge Sort
