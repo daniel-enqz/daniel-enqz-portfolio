@@ -28,4 +28,7 @@
 >   - O(n) No other varieble than themporary is required_
 > Quicksort
 > Merge Sort
-> Selection Sort: _Complexity: O(n^2) ---- Ω(1))_
+> **Selection Sort:** 
+> - _Complexity:_ 
+>   - O(n^2) 
+>   - Ω(1))
