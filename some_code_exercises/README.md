@@ -1,7 +1,7 @@
 # Algorithms and Data Structures 🥇
 
 ## Basic Rules
-✅ **"When writing algorithms, time, complexity and memory are in balance"** <br>
+✅ **"When writing algorithms, time complexity and memory (space) are in balance"** <br>
 ✅ **"We use asymptotic notation to exclude less important cases, and ust focuses on running time"**
 
 <p align="center">
