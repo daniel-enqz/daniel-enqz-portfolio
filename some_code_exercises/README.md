@@ -12,6 +12,14 @@
 5. Polynomial functions `n^37`
 6. Exponential functions `37^n`
 
+<p align="center">
+  <img src="assets/sorting_table.png" />
+</p>
+
+<p align="center">
+  <img src="assets/graph.png" />
+</p>
+
 ## Searching 🔎
 > **Binary Search:** 
 > - **_Complexity: (Running Time/Asymptotic Notation)_** 
