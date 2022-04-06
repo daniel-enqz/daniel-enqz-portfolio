@@ -4,13 +4,13 @@
 ✅ **"When writing algorithms, time, complexity and memory are in balance"** <br>
 ✅ **"We use asymptotic notation to exclude less important cases, and ust focuses on running time"**
 
-## Running Time Rules (slowest to faster) ⏩
+## Running Time Rules (slowest to faster) (VARIES DEPENDING ON THE INPUT) ⏩
 1. Constant functions `37`
 2. Logarithmic functions `log n`
 3. Linear functions `37n`
 4. Linearithmic functions `n log n`
 5. Polynomial functions `n^37`
-6. Exponential functions `37^n`
+6. Exponential functions `37^n` (AVOID USING THIS ONE)
 
 <p align="center">
   <img src="assets/graph.jpeg" />
