@@ -30,6 +30,7 @@
 <p align="center">
   <img src="assets/sorting_table.jpeg" />
 </p>
+
 > **Binary Sort:** 
 > - **_Complexity:_** 
 >   - Θ(nlogn) 
