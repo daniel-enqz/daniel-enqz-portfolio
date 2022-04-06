@@ -13,11 +13,11 @@
 6. Exponential functions `37^n`
 
 <p align="center">
-  <img src="assets/sorting_table.png" />
+  <img src="assets/sorting_table.jpeg" />
 </p>
 
 <p align="center">
-  <img src="assets/graph.png" />
+  <img src="assets/graph.jpeg" />
 </p>
 
 ## Searching 🔎
