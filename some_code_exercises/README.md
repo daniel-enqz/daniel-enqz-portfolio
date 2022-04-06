@@ -20,10 +20,6 @@
   <img src="assets/graph.jpeg" />
 </p>
 
-<p align="center">
-  <img src="assets/sorting_table.jpeg" />
-</p>
-
 ## Searching 🔎
 > **Binary Search:** 
 > - **_Complexity: (Running Time/Asymptotic Notation)_** 
@@ -31,6 +27,9 @@
 >   - Ω(1))
 
 ## Sorting 🔀
+<p align="center">
+  <img src="assets/sorting_table.jpeg" />
+</p>
 > **Binary Sort:** 
 > - **_Complexity:_** 
 >   - Θ(nlogn) 
