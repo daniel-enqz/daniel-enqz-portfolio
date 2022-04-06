@@ -4,6 +4,10 @@
 ✅ **"When writing algorithms, time, complexity and memory are in balance"** <br>
 ✅ **"We use asymptotic notation to exclude less important cases, and ust focuses on running time"**
 
+<p align="center">
+  <img src="assets/complexity.png" />
+</p>
+
 ## Running Time Rules (slowest to faster) (VARIES DEPENDING ON THE INPUT) ⏩
 1. Constant functions `37`
 2. Logarithmic functions `log n`
