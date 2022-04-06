@@ -8,7 +8,7 @@
   <img src="assets/complexity.png" />
 </p>
 
-## Running Time Rules (fastest to slower) (VARIES DEPENDING ON THE INPUT) ⏩
+## Running Time Rules (fastest(1) to slower(6)) (VARIES DEPENDING ON THE INPUT) ⏩
 1. Constant functions `37`
 2. Logarithmic functions `log n`
 3. Linear functions `37n`
