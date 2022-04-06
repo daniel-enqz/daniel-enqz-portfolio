@@ -29,7 +29,7 @@
 
 > **Selection Sort:** 
 > - **_Complexity:_** 
->   - Θ(n^2) All cases regardless of the input
+>   - Θ(n^2) All cases regardless of the input (Nested Loops)
 > - **_Space Complexty:_** 
 >   - (edit here)
 > - **_Explanation:_**
