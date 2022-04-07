@@ -11,10 +11,12 @@
 ## Running Time Rules (fastest(1) to slower(6)) (VARIES DEPENDING ON THE INPUT) ⏩
 1. Constant functions `37`
 2. Logarithmic functions `log n`
-3. Linear functions `37n`
-4. Linearithmic functions `n log n`
-5. Polynomial functions `n^37`
-6. Exponential functions `37^n` (AVOID USING THIS ONE)
+   - When an algorithm decreases the magnitude of its input size each time.
+   - Time increases lineary, while input(n) exponentially. (10 = 1s) (100 - 2s) (10000 - 4s)
+4. Linear functions `37n`
+5. Linearithmic functions `n log n`
+6. Polynomial functions `n^37`
+7. Exponential functions `37^n` (AVOID USING THIS ONE)
 
 <p align="center">
   <img src="assets/graph.jpeg" />
