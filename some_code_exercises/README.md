@@ -10,15 +10,22 @@
 
 ## Running Time Rules (fastest(1) to slower(6)) (VARIES DEPENDING ON THE INPUT) ⏩
 1. Constant functions `37`
-2. Logarithmic functions `log n`
+   - For example when you find in first itaration, we say O(1)
+
+3. Logarithmic functions `log n`
    - When an algorithm decreases the magnitude of its input size each time.
    - Time increases lineary, while input(n) exponentially. (10 = 1s) (100 - 2s) (10000 - 4s)
    - At each iteration array is halved
+
 4. Linear functions `37n`
-5. Linearithmic functions `n log n`
+   - When the leght of the input increases linearly with the size of the input
+
+6. Linearithmic functions `n log n`
    - Divide and put back together
+
 7. Polynomial functions `n^2`
    - Used in nested loops (When an iteration over array is done x times, in this case 2)
+
 9. Exponential functions `2^n` (AVOID USING THIS ONE)
    - Doubles the magnitude with each increment in the data set. ( n = 3 // 8 operations, n = 10 // 1024 operations 😥) 
 
