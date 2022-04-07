@@ -16,8 +16,10 @@
    - At each iteration array is halved
 4. Linear functions `37n`
 5. Linearithmic functions `n log n`
-6. Polynomial functions `n^37`
-7. Exponential functions `37^n` (AVOID USING THIS ONE)
+   - Divide and put back together
+7. Polynomial functions `n^37`
+8. Exponential functions `37^n` (AVOID USING THIS ONE)
+   - Doubles the magnitude with each increment in the data set. ( n = 3 // 8 operations, n = 10 // 1024 operations 😥) 
 
 <p align="center">
   <img src="assets/graph.jpeg" />
