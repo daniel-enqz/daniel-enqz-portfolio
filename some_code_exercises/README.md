@@ -33,7 +33,7 @@
 > - **_Explanation:_**
 >   - `Partions array into halves each iteration`
 
-## Sorting 🔀
+## Sorting 🔀 [ Θ(nlogn) is probably the best time we can achieve]
 <p align="center">
   <img src="assets/sorting_table.jpeg" />
 </p>
