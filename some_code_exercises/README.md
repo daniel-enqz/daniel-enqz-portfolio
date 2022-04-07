@@ -13,6 +13,7 @@
 2. Logarithmic functions `log n`
    - When an algorithm decreases the magnitude of its input size each time.
    - Time increases lineary, while input(n) exponentially. (10 = 1s) (100 - 2s) (10000 - 4s)
+   - At each iteration array is halved
 4. Linear functions `37n`
 5. Linearithmic functions `n log n`
 6. Polynomial functions `n^37`
