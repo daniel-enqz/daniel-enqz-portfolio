@@ -17,8 +17,9 @@
 4. Linear functions `37n`
 5. Linearithmic functions `n log n`
    - Divide and put back together
-7. Polynomial functions `n^37`
-8. Exponential functions `37^n` (AVOID USING THIS ONE)
+7. Polynomial functions `n^2`
+   - Used in nested loops (When an iteration over array is done x times, in this case 2)
+9. Exponential functions `2^n` (AVOID USING THIS ONE)
    - Doubles the magnitude with each increment in the data set. ( n = 3 // 8 operations, n = 10 // 1024 operations 😥) 
 
 <p align="center">
