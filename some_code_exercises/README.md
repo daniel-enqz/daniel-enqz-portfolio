@@ -27,7 +27,7 @@
 > **Binary Search:** 
 > - **_Complexity: (Running Time/Asymptotic Notation)_** 
 >   - O(log n) 
->   - Ω(1))
+>   - Ω(1)
 > - **_Space Complexty:_** 
 >   - O(1)
 > - **_Explanation:_**
@@ -57,7 +57,9 @@
 
 > **Quicksort:**
 > - **_Complexity:_** 
->   - (edit here)
+>   - Θ(nlogn) 
+>   - O(nlogn) 
+>   - Ω(n)
 > - **_Space Complexty:_** 
 >   - (edit here)
 
