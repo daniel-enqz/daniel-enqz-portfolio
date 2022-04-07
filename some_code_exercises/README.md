@@ -30,6 +30,8 @@
 >   - Ω(1))
 > - **_Space Complexty:_** 
 >   - O(1)
+> - **_Explanation:_**
+>   - `Partions array into halves each iteration`
 
 ## Sorting 🔀
 <p align="center">
@@ -64,3 +66,5 @@
 >   - (edit here)
 > - **_Space Complexty:_** 
 >   - (edit here)
+> - **_Explanation:_**
+>   - `Partions array into halves and merges two halves in linear time.`
