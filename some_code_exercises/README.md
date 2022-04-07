@@ -42,6 +42,26 @@
 >   - O(1)
 > - **_Explanation:_**
 >   - `Partions array into halves each iteration`
+> - **_Example:_**
+
+```javascript
+let array = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,,16,17]
+let targetValue = 15
+let min;
+let max;
+
+for ( let i = o; i < array.length, i++) {
+  guess = Math.floor((min + max) / 2)
+  if (array[guess] === targetValue) {
+    return guess;
+  } else if (array[guess] > targetValue) {
+    max = guess - 1;
+  } else {
+    min = guess +  1;
+  }
+  return -1;
+}
+```
 
 ## Sorting 🔀 [ Θ(nlogn) is probably the best time we can achieve]
 <p align="center">
