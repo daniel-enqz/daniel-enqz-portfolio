@@ -85,6 +85,15 @@ for ( let i = o; i < array.length, i++) {
 > - **_Explanation:_**
 >   - `This algorithm is called selection sort because it repeatedly selects the next-smallest element and swaps it into place.`
 
+> **Insertion Sort:**
+> - **_Complexity:_** 
+>   - Θ(nlogn) 
+>   - O(nlogn) 
+>   - Ω(n)
+> - **_Space Complexty:_** 
+>   - (edit here)
+> - **_Explanation:_**
+>   - `Having a key and compare it with i'ts left element, if element > than key, slide element to right, insert key when element < key `
 
 > **Quicksort:**
 > - **_Complexity:_** 
