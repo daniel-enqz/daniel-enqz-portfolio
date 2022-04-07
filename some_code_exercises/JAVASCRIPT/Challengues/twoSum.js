@@ -47,22 +47,61 @@ hashApproach = (array, targetValue) => {
 //Si no encuentra la suma: return [];
 
 //NOTE: SI UTILIZAMOS SELECTION SORT:
+// TIME COMPLEXITY: O(n^2) | Ω(n^2)
+//SPACE COMPLEXITY: O(1)
 // ITERA SOBRE TODO EL ARRAY Y BUSCA SI HAY UN INDICE MENOR QUE EL INDICE ACTUAL, Y SI LO HAY HACE UN SWAP DE ESOS INDEX
 
+// TIME COMPLEXITY: O(n log n) | Ω(1))
+//SPACE COMPLEXITY: O(1)
 
-sortApproach = (array, targetValue) => {
-  let value;
-  sortingArray = (array) => {
+sortingApproach = (array, targetValue) => {
+
+  swap = (firstIndex, secondIndex) => {
+    let temp = array[firstIndex]
+    array[firstIndex] = array[secondIndex]
+    array[secondIndex] = temp
+  }
+
+  indexOfMimum = (indexToCheck ) => {
+    let minValue = array[indexToCheck];
+    let minIndex = indexToCheck;
+
+    for (let i = minIndex + 1; i < array.length; i++) {
+      if (array[i] < minValue) {
+        minValue = array[i];
+        minIndex = i;
+      }
+    }
+    return minIndex;
+  }
+
+  sortingArray = () => {
+    let value;
     for (let i = 0; i < array.length; i++) {
-      value = indexOfMimum(array, i)
+      value = indexOfMimum(i)
+      swap(value, i)
+    }
+    return array;
+  }
 
+  sortingArray();
+  let max = array.length - 1;
+  let min = 0
+
+  for (let i = 0; i < array.length; i++) {
+    if ((array[min] + array[max] === targetValue)) {
+      return [array[min], array[max]]
+    } else if (array[min] + array[max] > targetValue) {
+      max --;
+    } else {
+      min ++;
     }
   }
+  return [];
 }
 
 
-
-const array = [2, 3, 8, 7, 9]
+const array = [3, 2, 8, 7, 9]
 const targetValue = 15
 console.log(bruteForceApproach(array, targetValue));
 console.log(hashApproach(array, targetValue));
