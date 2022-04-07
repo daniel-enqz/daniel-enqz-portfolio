@@ -25,6 +25,8 @@
 > - **_Complexity: (Running Time/Asymptotic Notation)_** 
 >   - O(log n) 
 >   - Ω(1))
+> - **_Space Complexty:_** 
+>   - O(1)
 
 ## Sorting 🔀
 <p align="center">
@@ -43,7 +45,7 @@
 > - **_Complexity:_** 
 >   - Θ(n^2) All cases regardless of the input (Nested Loops)
 > - **_Space Complexty:_** 
->   - (edit here)
+>   - O(1)
 > - **_Explanation:_**
 >   - `This algorithm is called selection sort because it repeatedly selects the next-smallest element and swaps it into place.`
 
