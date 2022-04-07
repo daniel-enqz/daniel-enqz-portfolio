@@ -87,9 +87,9 @@ for ( let i = o; i < array.length, i++) {
 
 > **Insertion Sort:**
 > - **_Complexity:_** 
->   - Θ(nlogn) 
->   - O(nlogn) 
->   - Ω(n)
+>   - Θ(n^2) 
+>   - O(n^2) 
+>   - Ω(n) (array may be sorted)
 > - **_Space Complexty:_** 
 >   - (edit here)
 > - **_Explanation:_**
