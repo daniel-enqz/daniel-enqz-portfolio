@@ -51,9 +51,10 @@ hashApproach = (array, targetValue) => {
 
 
 sortApproach = (array, targetValue) => {
+  let value;
   sortingArray = (array) => {
     for (let i = 0; i < array.length; i++) {
-      indexOfMimum
+      value = indexOfMimum(array, i)
 
     }
   }
