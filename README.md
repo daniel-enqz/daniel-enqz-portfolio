@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/Intro.png" />
+  <img src="assets/Intro2.png" />
 </p>
 
 <h3 align="center">Welcome! Visitor number.....:eyes:</h3>
@@ -50,6 +50,7 @@
 <p align="center">
 🌱 Check some of my recent projects🌱
 
+>- [Akord.me](https://github.com/daniel-enqz/akord) | Making events was never so easy<br>
 >- [AirBnB clone](https://github.com/daniel-enqz/studio) but with Music Studios!!!<br>
 >- [Share your favourite movies](https://github.com/daniel-enqz/rails-watch-list) with your friends!!!<br>
 </p>
