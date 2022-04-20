@@ -114,10 +114,10 @@ for ( let i = o; i < array.length, i++) {
 # Writing Clean code 🥇
 
 ## Basic Rules
-✅ **"Code describes itself"**
-✅ **"Less than 100 lines class"**
-✅ **"Methods with 5 lines or less"**
-✅ **"Methdos with 4 arguments or less"**
+✅ **"Code describes itself"**<br>
+✅ **"Less than 100 lines class"**<br>
+✅ **"Methods with 5 lines or less"**<br>
+✅ **"Methdos with 4 arguments or less"**<br>
 ✅ **"A controllers instantiates only one object"**
 
 ## Intention Reveleaing Method
