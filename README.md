@@ -50,7 +50,7 @@
 <p align="center">
 🌱 Check some of my recent projects🌱
 
->- [Akord.me](https://github.com/daniel-enqz/akord) | Making events was never so easy<br>
+>- [Akord.me](https://github.com/daniel-enqz/akord) | Simply get together<br>
 >- [AirBnB clone](https://github.com/daniel-enqz/studio) but with Music Studios!!!<br>
 >- [Share your favourite movies](https://github.com/daniel-enqz/rails-watch-list) with your friends!!!<br>
 </p>
