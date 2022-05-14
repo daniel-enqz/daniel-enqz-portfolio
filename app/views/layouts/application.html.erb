@@ -12,6 +12,9 @@
   </head>
 
   <body>
-    <%= yield %>
+    <main class="container mx-auto mt-14 px-5">
+      <%= render 'shared/banner' %>
+      <%= yield %>
+    </main>
   </body>
 </html>
