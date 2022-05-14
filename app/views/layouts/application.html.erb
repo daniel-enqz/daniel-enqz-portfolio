@@ -14,7 +14,10 @@
   <body>
     <main class="container mx-auto mt-14 px-5">
       <%= render 'shared/banner' %>
-      <%= yield %>
+      <div class="flex mt-10">
+      <%= render 'shared/sidebar' %>
+        <%= yield %>
+      </div>
     </main>
   </body>
 </html>
