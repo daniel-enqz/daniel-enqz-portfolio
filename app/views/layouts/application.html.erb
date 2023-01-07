@@ -6,18 +6,16 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
-
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <script src="https://kit.fontawesome.com/629f15b90a.js" crossorigin="anonymous"></script>
     <%= javascript_importmap_tags %>
   </head>
 
   <body>
-    <main class="container mx-auto mt-14 px-5">
-      <%= render 'shared/banner' %>
-      <div class="flex mt-10">
-        <div class="h-56 sm:grid md:grid-cols-2 md:gap-4 content-start flex flex-wrap">
-          <%= yield %>
-        </div>
+    <main class="container mx-auto mt-14 px-5" data-controller="navigation">
+      <%= render 'shared/breadcrumb' %>
+      <div class="mt-10 h-screen grid content-start">
+        <%= yield %>
       </div>
     </main>
   </body>
