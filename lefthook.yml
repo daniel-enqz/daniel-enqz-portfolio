@@ -1,0 +1,4 @@
+pre-commit:
+  commands:
+    backend-linter:
+      run: bundle exec rubocop --force-exclusion {staged_files}
