@@ -1,5 +1,7 @@
 <%= render "shared/alert" %>
-<%= render "tabs" %>
 
-<%= render "shared/request", request: @request %>
-<%= render "shared/review", review: @review %>
+<div data-controller="tabs">
+  <%= render "tabs" %>
+  <%= render "shared/request", request: @request %>
+  <%= render "shared/review", review: @review %>
+</div>
