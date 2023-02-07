@@ -14,7 +14,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_02_07_065916) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "contact_services", force: :cascade do |t|
+  create_table "requests", force: :cascade do |t|
     t.string "name"
     t.string "email"
     t.string "subject"
@@ -24,7 +24,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_02_07_065916) do
   end
 
   create_table "reviews", force: :cascade do |t|
-    t.text "description"
+    t.text "message"
     t.integer "rating"
     t.text "email"
     t.text "name"

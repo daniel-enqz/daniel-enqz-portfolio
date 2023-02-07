@@ -5,6 +5,6 @@ Rails.application.routes.draw do
   root "pages#home"
   get "home", to: "pages#home"
 
-  # Defines the reviews path route ("/reviews")
   resources :reviews, only: [:create]
+  resources :requests, only: [:create]
 end
