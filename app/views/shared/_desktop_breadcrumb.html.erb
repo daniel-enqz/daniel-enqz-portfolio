@@ -1,0 +1,29 @@
+<div class="xl:flex xl:justify-between items-center" data-controller="breadcrumb">
+  <div class="min-w-0 flex justify-between items-center">
+    <div class="flex items-center shadow-xl rounded-lg p-5 item-animate-left">
+      <img class="h-14 w-14 rounded-full object-cover object-center ring ring-white" src="<%= asset_path( 'enqz.jpg' ) %>" alt="Daniel Enqz">
+      <div class="flex flex-col ml-2">
+        <h1 class="text-lg font-semibold text-gray-900 sm:truncate">@daniel_enqz</h1>
+        <h2 class="text-xl font-bold text-gray-900 sm:tracking-tight">Software Engineer</h2>
+      </div>
+    </div>
+    <button class="xl:hidden text-2xl font-bold text-gray-700" data-breadcrumb-target="dropdownButton" data-action="breadcrumb#toggleDropdown"><i class="fa-solid fa-bars"></i></button>
+  </div>
+  <div class="xl:mt-0 xl:flex hidden grid grid-cols-1 mt-4 shadow-lg rounded-lg p-5 item-animate" data-breadcrumb-target="dropdown">
+    <a type="button" class="ml-3 item-animate inline-flex items-center duration-300 rounded-lg border border-transparent bg-transparent px-5 py-2.5 text-center text-lg font-semibold text-gray-700 shadow-none transition-all hover:bg-gray-100 hover:text-teal-500 disabled:bg-transparent disabled:text-gray-400">
+      <i class="mr-2 fa-solid fa-paper-plane"></i>Curriculum
+    </a>
+    <a type="button" href="https://github.com/daniel-enqz" target="_blank" class="ml-3 item-animate inline-flex items-center duration-300 rounded-lg border border-transparent bg-transparent px-5 py-2.5 text-center text-lg font-semibold text-gray-700 shadow-none transition-all hover:bg-gray-100 hover:text-purple-500 disabled:bg-transparent disabled:text-gray-400">
+      <i class="mr-2 fa-brands fa-github"></i> GitHub
+    </a>
+    <a type="button" href="https://www.linkedin.com/in/daniel-enqz/" target="_blank" class="ml-3 item-animate inline-flex items-center duration-300 rounded-lg border border-transparent bg-transparent px-5 py-2.5 text-center text-lg font-semibold text-gray-700 shadow-none transition-all hover:bg-gray-100 hover:text-blue-500 disabled:bg-transparent disabled:text-gray-400">
+      <i class="mr-2 fa-brands fa-linkedin"></i>Linkedin
+    </a>
+    <a type="button" href="https://twitter.com/Daniel__enqz" target="_blank" class="ml-3 item-animate inline-flex items-center duration-300 rounded-lg border border-transparent bg-transparent px-5 py-2.5 text-center text-lg font-semibold text-gray-700 shadow-none transition-all hover:bg-gray-100 hover:text-sky-400 disabled:bg-transparent disabled:text-gray-400">
+      <i class="mr-2 fa-brands fa-twitter"></i>Twitter
+    </a>
+    <a type="button" href="mailto:dan17.em@gmail.com" target="_blank" class="ml-3 item-animate inline-flex items-center duration-300 rounded-lg border border-transparent bg-transparent px-5 py-2.5 text-center text-lg font-semibold text-gray-700 shadow-none transition-all hover:bg-gray-100 hover:text-rose-500 disabled:bg-transparent disabled:text-gray-400">
+      <i class="mr-2 fa-solid fa-envelope"></i>Mail
+    </a>
+  </div>
+</div>
