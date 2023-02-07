@@ -48,7 +48,7 @@
                 <%= f.label :rating, "Leave your rating", class: "block text-sm font-medium text-gray-700" %>
                 <p class="hidden text-sm font-medium text-emerald-400 item-animate-right" data-form--validator-target="vaildMessage">Valid<i class="mx-1 fa-solid fa-circle-check"></i></p>
               </div>
-              <%= f.select :rating, Review::RATING, {}, class: "block w-full rounded-md border-transparent focus:border-transparent focus:ring-transparent py-3 px-4 drop-shadow-md  transition ease-in-out delay-100", data: { "form--validator-target": "subject" } %>
+              <%= f.select :rating, Review::RATING.map { |rating| [rating[0], rating[1]] }, {}, class: "block w-full rounded-md border-transparent focus:border-transparent focus:ring-transparent py-3 px-4 drop-shadow-md  transition ease-in-out delay-100", data: { "form--validator-target": "subject" } %>
             </div>
             <div>
               <%= f.submit "Submit", class: "cursor-pointer inline-flex items-center justify-center rounded-md px-6 py-3 text-base font-medium text-black shadow-sm transition ease-in-out delay-150 bg-transparent hover:-translate-y-1 hover:scale-110 hover:bg-green-300 hover:text-white duration-300" %>
