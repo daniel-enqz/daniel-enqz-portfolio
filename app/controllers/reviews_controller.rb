@@ -1,5 +1,5 @@
 class ReviewsController < ApplicationController
-  before_action :permit_params, only: [:create]
+  before_action :review_params, only: [:create]
 
   def create
     @review = Review.new(review_params)

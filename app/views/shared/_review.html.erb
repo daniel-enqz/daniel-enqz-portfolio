@@ -11,7 +11,7 @@
     </div>
     <div class="bg-white py-16 px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
       <div class="mx-auto max-w-lg lg:max-w-none">
-        <%= form_with model: @review, url: reviews_path, method: :post do |form| %>
+        <%= form_with model: review, url: reviews_path, method: :post do |form| %>
           <div class="grid grid-cols-1 gap-y-6">
             <div>
               <%= form.label :name, class: "sr-only" %>

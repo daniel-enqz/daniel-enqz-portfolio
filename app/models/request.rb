@@ -1,2 +1,2 @@
-class ContactService < ApplicationRecord
+class Request < ApplicationRecord
 end
