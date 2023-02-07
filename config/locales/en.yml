@@ -31,7 +31,6 @@
 
 en:
   hello: "Hello world"
-
-request_mailer:
-  received_request:
-    subject: "Your class is ready!"
+  request_mailer:
+    received_request:
+      subject: Your class is ready! 🔥

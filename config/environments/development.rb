@@ -45,7 +45,7 @@ Rails.application.configure do
   config.action_mailer.default_url_options = {host: "localhost:3000", protocol: "http"}
 
   # SMTP settings for gmail
-  config.action_mailer.smtp_settings = {address:              "smtp-relay.sendinblue.com",
+  config.action_mailer.smtp_settings = {address:              "smtp.sendgrid.net",
                                         port:                 587,
                                         user_name:            Rails.application.credentials.sendinblue[:user_name],
                                         password:             Rails.application.credentials.sendinblue[:password],
