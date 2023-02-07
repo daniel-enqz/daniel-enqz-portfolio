@@ -42,11 +42,13 @@ Rails.application.configure do
   config.action_mailer.perform_caching = false
 
   config.action_mailer.delivery_method = :smtp
-  config.action_mailer.smtp_settings = {address:              "smtp.gmail.com",
+  config.action_mailer.default_url_options = {host: "localhost:3000", protocol: "http"}
+
+  # SMTP settings for gmail
+  config.action_mailer.smtp_settings = {address:              "smtp-relay.sendinblue.com",
                                         port:                 587,
-                                        domain:               "example.com",
-                                        user_name:            ENV["GMAIL_USERNAME"],
-                                        password:             ENV["GMAIL_PASSWORD"],
+                                        user_name:            Rails.application.credentials.sendinblue[:user_name],
+                                        password:             Rails.application.credentials.sendinblue[:password],
                                         authentication:       "plain",
                                         enable_starttls_auto: true}
 
