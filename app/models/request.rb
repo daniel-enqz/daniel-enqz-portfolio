@@ -1,5 +1,6 @@
 class Request < ApplicationRecord
-  SUBJECTS = ["Project Review",
+  SUBJECTS = ["",
+    "Project Review",
     "General Programming Questions",
     "Ruby on Rails application review",
     "Programming Fundamentals",

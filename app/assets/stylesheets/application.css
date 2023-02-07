@@ -44,3 +44,18 @@
     opacity: 1;
   }
 }
+
+.item-animate-right {
+  animation: appear-right 1s ease-in-out;
+}
+
+@keyframes appear-right {
+  0% {
+    transform: translateX(40px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
