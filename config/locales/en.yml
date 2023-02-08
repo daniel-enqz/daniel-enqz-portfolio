@@ -34,7 +34,7 @@ en:
   reviews:
     create:
       success: "Thank you for your review!"
-      failure: "There was an error saving your review."
+      error: "There was an error saving your review."
   request_mailer:
     received_request:
       subject: Your class is ready! 🔥

@@ -1,4 +1,4 @@
-<%= render "shared/alert" %>
+<%= render partial: "shared/flash_messages", locals: { flash: flash } %>
 
 <div data-controller="tabs">
   <%= render "tabs" %>

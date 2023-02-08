@@ -1,17 +1,5 @@
 <%= turbo_frame_tag "flash_messages" do %>
-  <div class="transition-all absolute z-10 flex flex-col w-full md:w-1/2 gap-3 px-8 top-20 m-auto left-0 right-0 h-min">
-    <% flash.each do |type, message, list| %>
-      <% unless message.presence.blank? %>
-        <%= render Alert::Component.new(type: type, description: message.presence, list: list)%>
-      <% end %>
-    <% end %>
-  </div>
+  <% flash.each do |type, message| %>
+    <%= render partial: "shared/flashes/#{type}", locals: { message: message } %>
+  <% end %>
 <% end %>
-
-
-<script type="text/javascript">
-    window.setTimeout(
-        "document.getElementById('flash_messages').firstElementChild.style.opacity=0;", 3500);
-    window.setTimeout(
-        "document.getElementById('flash_messages').style.display='none';", 3800);
-</script>

@@ -4,11 +4,11 @@ class ReviewsController < ApplicationController
   def create
     @review = Review.new(review_params)
     if @review.save
-      redirect_to root_path, notice: t(".success")
+      flash.now[:notice] = t(".success")
     else
-      render "pages/home"
-      render turbo_stream: turbo_stream.replace(:flash_messages, partial: "shared/flash_messages")
+      flash.now[:alert] = @review.errors.full_messages.join(", ")
     end
+    render turbo_stream: turbo_stream.replace(:flash_messages, partial: "shared/flash_messages")
   end
 
   private
