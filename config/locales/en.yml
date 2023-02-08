@@ -35,6 +35,10 @@ en:
     create:
       success: "Thank you for that review!"
       error: "There was an error saving your review."
+  requests:
+    create:
+      success: "All set! Check your email for the next steps."
+      error: "There was an error saving your request."
   request_mailer:
     received_request:
       subject: Your class is ready! 🔥

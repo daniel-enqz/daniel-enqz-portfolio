@@ -7,7 +7,7 @@ class ReviewsController < ApplicationController
       redirect_to root_path, notice: t(".success")
     else
       flash.now[:alert] = @review.errors.full_messages.join(", ")
-      render turbo_stream: turbo_stream.replace(:flash_messages, partial: "shared/flash_messages")
+      render turbo_stream: turbo_stream.replace(:flash_messages, partial: "shared/flash_messages", locals: {heading: t(".error")})
     end
   end
 

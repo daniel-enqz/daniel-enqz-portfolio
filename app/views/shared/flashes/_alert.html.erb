@@ -2,7 +2,7 @@
   <div class="flex items-start">
     <i class="fa-solid fa-circle-xmark text-red-400 mt-0.5"></i>
     <div class="ml-3">
-      <h3 class="text-sm font-semibold text-red-800">There were some errors with your submission</h3>
+      <h3 class="text-sm font-semibold text-red-800"><%= heading %></h3>
       <div class="mt-2 text-sm text-red-700">
         <ul role="list" class="list-disc space-y-1 pl-5">
           <% message.split(", ").each do |error| %>
