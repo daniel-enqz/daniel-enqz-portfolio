@@ -23,8 +23,8 @@ Rails.application.configure do
   # SMTP settings for gmail
   config.action_mailer.smtp_settings = {address:              "smtp.sendgrid.net",
                                         port:                 465,
-                                        user_name:            Rails.application.credentials.sendinblue[:user_name],
-                                        password:             Rails.application.credentials.sendinblue[:password],
+                                        user_name:            Rails.application.credentials.sendgrid[:user_name],
+                                        password:             Rails.application.credentials.sendgrid[:password],
                                         authentication:       "plain",
                                         enable_starttls_auto: true}
 
