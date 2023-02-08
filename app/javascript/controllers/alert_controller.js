@@ -2,13 +2,13 @@ import { Controller } from "@hotwired/stimulus"
 
 export default class extends Controller {
 
-  static targets = [ "thankYouAlert"]
+  static targets = [ "alert"]
 
   initialize() {
-    this.thankYouAlertTarget.classList.remove("hidden")
+    this.alertTarget.classList.remove("hidden")
   }
 
   close() {
-    this.thankYouAlertTarget.classList.add("hidden")
+    this.alertTarget.classList.add("hidden")
   }
 }
