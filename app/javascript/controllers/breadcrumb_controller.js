@@ -4,6 +4,7 @@ export default class extends Controller {
 
   static targets = [ "dropdown", "dropdownButton" ]
   connect() {
+    this.dropdownTarget.classList.add("hidden")
   }
 
   toggleDropdown() {
