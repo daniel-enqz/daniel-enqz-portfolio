@@ -12,8 +12,8 @@
   </head>
 
   <body>
-    <main class="container static mx-auto mt-14 px-5">
-      <div class="fixed top-16 inset-x-80 z-50">
+    <main class="container relative mx-auto mt-14 px-5">
+      <div class="fixed top-16 inset-x-5 md:inset-x-40 lg:inset-x-80 z-50">
         <%= render partial: "shared/flash_messages", locals: { flash: flash } %>
       </div>
       <%= render 'shared/desktop_breadcrumb' %>
