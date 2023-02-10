@@ -3,9 +3,6 @@ import { Controller } from "@hotwired/stimulus"
 export default class extends Controller {
 
   static targets = [ "dropdown", "dropdownButton" ]
-  connect() {
-    this.dropdownTarget.classList.add("hidden")
-  }
 
   toggleDropdown() {
     this.dropdownTarget.classList.toggle("hidden")
