@@ -4,7 +4,11 @@ class RequestsController < ApplicationController
   def create
     @request = Request.new(request_params)
     if @request.save
-      redirect_to root_path, notice: t(".success") if RequestMailer.received_request(@request).deliver_now
+      flash.now[:notice] = t(".success")
+      @request = Request.new
+      respond_to do |format|
+        format.turbo_stream
+      end
     else
       flash.now[:alert] = @request.errors.full_messages.join(", ")
       render turbo_stream: turbo_stream.replace(:flash_messages, partial: "shared/flash_messages", locals: {heading: t(".error")})

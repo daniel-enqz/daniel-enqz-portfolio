@@ -1,76 +1,74 @@
-<div class="overflow-hidden bg-white py-16 px-6 lg:px-8 lg:py-24 item-animate" data-tabs-target="requestTab">
-  <div class="relative mx-auto max-w-xl">
-    <svg class="absolute left-full translate-x-1/2 transform" width="404" height="404" fill="none" viewBox="0 0 404 404" aria-hidden="true">
-      <defs>
-        <pattern id="85737c0e-0916-41d7-917f-596dc7edfa27" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-          <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
-        </pattern>
-      </defs>
-      <rect width="404" height="404" fill="url(#85737c0e-0916-41d7-917f-596dc7edfa27)" />
-    </svg>
-    <svg class="absolute right-full bottom-0 -translate-x-1/2 transform" width="404" height="404" fill="none" viewBox="0 0 404 404" aria-hidden="true">
-      <defs>
-        <pattern id="85737c0e-0916-41d7-917f-596dc7edfa27" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-          <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
-        </pattern>
-      </defs>
-      <rect width="404" height="404" fill="url(#85737c0e-0916-41d7-917f-596dc7edfa27)" />
-    </svg>
-    <div class="text-center">
-      <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Request a Service</h2>
-      <p class="mt-4 text-lg leading-6 text-gray-500">Lectures, coding guidance, project reviews, and more.</p>
-    </div>
-    <div class="mt-12">
-      <%= form_with model: request, url: requests_path, method: :post, local: true, class: "grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8", data: { controller: "form--validator" } do |f| %>
-        <div>
-          <div class="flex justify-between">
-            <%= f.label :first_name, "First name", class: "block text-sm font-medium text-gray-700" %>
-            <p class="hidden text-sm font-medium text-emerald-400 item-animate-right" data-form--validator-target="vaildMessage">Valid<i class="mx-1 fa-solid fa-circle-check"></i></p>
-          </div>
-          <div class="mt-1">
-            <%= f.text_field :first_name, class: "block w-full rounded-md  border-transparent focus:border-transparent focus:ring-transparent py-3 px-4 drop-shadow-md  transition ease-in-out delay-100", data: { "form--validator-target": "field firstName" } %>
-          </div>
+<div class="relative mx-auto max-w-xl">
+  <svg class="absolute left-full translate-x-1/2 transform" width="404" height="404" fill="none" viewBox="0 0 404 404" aria-hidden="true">
+    <defs>
+      <pattern id="85737c0e-0916-41d7-917f-596dc7edfa27" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+        <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+      </pattern>
+    </defs>
+    <rect width="404" height="404" fill="url(#85737c0e-0916-41d7-917f-596dc7edfa27)" />
+  </svg>
+  <svg class="absolute right-full bottom-0 -translate-x-1/2 transform" width="404" height="404" fill="none" viewBox="0 0 404 404" aria-hidden="true">
+    <defs>
+      <pattern id="85737c0e-0916-41d7-917f-596dc7edfa27" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+        <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+      </pattern>
+    </defs>
+    <rect width="404" height="404" fill="url(#85737c0e-0916-41d7-917f-596dc7edfa27)" />
+  </svg>
+  <div class="text-center">
+    <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Request a Service</h2>
+    <p class="mt-4 text-lg leading-6 text-gray-500">Lectures, coding guidance, project reviews, and more.</p>
+  </div>
+  <div class="mt-12">
+    <%= form_with model: request, url: requests_path, method: :post, local: true, class: "grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8", data: { controller: "form--validator" } do |f| %>
+      <div>
+        <div class="flex justify-between">
+          <%= f.label :first_name, "First name", class: "block text-sm font-medium text-gray-700" %>
+          <p class="hidden text-sm font-medium text-emerald-400 item-animate-right" data-form--validator-target="vaildMessage">Valid<i class="mx-1 fa-solid fa-circle-check"></i></p>
         </div>
-        <div>
-          <div class="flex justify-between">
-            <%= f.label :last_name, "Last name", class: "block text-sm font-medium text-gray-700" %>
-            <p class="hidden text-sm font-medium text-emerald-400 item-animate-right" data-form--validator-target="vaildMessage">Valid<i class="mx-1 fa-solid fa-circle-check"></i></p>
-          </div>
-          <div class="mt-1">
-            <%= f.text_field :last_name, class: "block w-full rounded-md border-transparent focus:border-transparent focus:ring-transparent py-3 px-4 drop-shadow-md  transition ease-in-out delay-100", data: { "form--validator-target": "lastName" } %>
-          </div>
+        <div class="mt-1">
+          <%= f.text_field :first_name, class: "block w-full rounded-md  border-transparent focus:border-transparent focus:ring-transparent py-3 px-4 drop-shadow-md  transition ease-in-out delay-100", data: { "form--validator-target": "field firstName" } %>
         </div>
-        <div class="sm:col-span-2">
-          <div class="flex justify-between">
-            <%= f.label :subject, "Subject", class: "block text-sm font-medium text-gray-700" %>
-            <p class="hidden text-sm font-medium text-emerald-400 item-animate-right" data-form--validator-target="vaildMessage">Valid<i class="mx-1 fa-solid fa-circle-check"></i></p>
-          </div>
-          <div class="mt-1">
-            <%= f.select :subject, Request::SUBJECTS, {}, class: "block w-full rounded-md border-transparent focus:border-transparent focus:ring-transparent py-3 px-4 drop-shadow-md  transition ease-in-out delay-100", data: { "form--validator-target": "field subject" } %>
-          </div>
+      </div>
+      <div>
+        <div class="flex justify-between">
+          <%= f.label :last_name, "Last name", class: "block text-sm font-medium text-gray-700" %>
+          <p class="hidden text-sm font-medium text-emerald-400 item-animate-right" data-form--validator-target="vaildMessage">Valid<i class="mx-1 fa-solid fa-circle-check"></i></p>
         </div>
-        <div class="sm:col-span-2">
-          <div class="flex justify-between">
-            <%= f.label :email, "Email", class: "block text-sm font-medium text-gray-700" %>
-            <p class="hidden text-sm font-medium text-emerald-400 item-animate-right" data-form--validator-target="vaildMessage">Valid<i class="mx-1 fa-solid fa-circle-check"></i></p>
-          </div>
-          <div class="mt-1">
-            <%= f.text_field :email, class: "autofill-color block placeholder:text-slate-400 w-full rounded-md border-transparent focus:border-transparent focus:ring-transparent py-3 px-4 drop-shadow-md  transition ease-in-out delay-100", data: { "form--validator-target": "field email"}, placeholder: "you@email.com" %>
-          </div>
+        <div class="mt-1">
+          <%= f.text_field :last_name, class: "block w-full rounded-md border-transparent focus:border-transparent focus:ring-transparent py-3 px-4 drop-shadow-md  transition ease-in-out delay-100", data: { "form--validator-target": "lastName" } %>
         </div>
-        <div class="sm:col-span-2">
-          <div class="flex justify-between">
-            <%= f.label :message, "Message", class: "block text-sm font-medium text-gray-700" %>
-            <p class="hidden text-sm font-medium text-emerald-400 item-animate-right" data-form--validator-target="vaildMessage">Valid<i class="mx-1 fa-solid fa-circle-check"></i></p>
-          </div>
-          <div class="mt-1">
-            <%= f.text_area :message, rows: 4, class: "block w-full placeholder:text-slate-400 rounded-md border-transparent focus:border-transparent focus:ring-transparent py-3 px-4 shadow-md", data: { "form--validator-target": "field message" }, placeholder: "I would love to schedule a class to improve my data structures and algorithm skills 💪" %>
-          </div>
+      </div>
+      <div class="sm:col-span-2">
+        <div class="flex justify-between">
+          <%= f.label :subject, "Subject", class: "block text-sm font-medium text-gray-700" %>
+          <p class="hidden text-sm font-medium text-emerald-400 item-animate-right" data-form--validator-target="vaildMessage">Valid<i class="mx-1 fa-solid fa-circle-check"></i></p>
         </div>
-        <div class="sm:col-span-2 place-self-center">
-          <%= f.submit "Submit", class: "cursor-pointer inline-flex w-full items-center justify-center rounded-md px-6 py-3 text-base font-medium text-black shadow-md transition ease-in-out delay-150 bg-transparent hover:-translate-y-1 hover:scale-110 hover:bg-green-300 hover:text-white duration-300" %>
+        <div class="mt-1">
+          <%= f.select :subject, Request::SUBJECTS, {}, class: "block w-full rounded-md border-transparent focus:border-transparent focus:ring-transparent py-3 px-4 drop-shadow-md  transition ease-in-out delay-100", data: { "form--validator-target": "field subject" } %>
         </div>
-      <% end %>
-    </div>
+      </div>
+      <div class="sm:col-span-2">
+        <div class="flex justify-between">
+          <%= f.label :email, "Email", class: "block text-sm font-medium text-gray-700" %>
+          <p class="hidden text-sm font-medium text-emerald-400 item-animate-right" data-form--validator-target="vaildMessage">Valid<i class="mx-1 fa-solid fa-circle-check"></i></p>
+        </div>
+        <div class="mt-1">
+          <%= f.text_field :email, class: "autofill-color block placeholder:text-slate-400 w-full rounded-md border-transparent focus:border-transparent focus:ring-transparent py-3 px-4 drop-shadow-md  transition ease-in-out delay-100", data: { "form--validator-target": "field email"}, placeholder: "you@email.com" %>
+        </div>
+      </div>
+      <div class="sm:col-span-2">
+        <div class="flex justify-between">
+          <%= f.label :message, "Message", class: "block text-sm font-medium text-gray-700" %>
+          <p class="hidden text-sm font-medium text-emerald-400 item-animate-right" data-form--validator-target="vaildMessage">Valid<i class="mx-1 fa-solid fa-circle-check"></i></p>
+        </div>
+        <div class="mt-1">
+          <%= f.text_area :message, rows: 4, class: "block w-full placeholder:text-slate-400 rounded-md border-transparent focus:border-transparent focus:ring-transparent py-3 px-4 shadow-md", data: { "form--validator-target": "field message" }, placeholder: "I would love to schedule a class to improve my data structures and algorithm skills 💪" %>
+        </div>
+      </div>
+      <div class="sm:col-span-2 place-self-center">
+        <%= f.submit "Submit", class: "cursor-pointer inline-flex w-full items-center justify-center rounded-md px-6 py-3 text-base font-medium text-black shadow-md transition ease-in-out delay-150 bg-transparent hover:-translate-y-1 hover:scale-110 hover:bg-green-300 hover:text-white duration-300" %>
+      </div>
+    <% end %>
   </div>
 </div>

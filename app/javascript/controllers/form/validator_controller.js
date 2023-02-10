@@ -1,7 +1,7 @@
 import { Controller } from "@hotwired/stimulus"
 
 export default class extends Controller {
-static targets = ["firstName", "lastName", "email", "message", "subject", "vaildMessage"];
+static targets = ["form", "firstName", "lastName", "email", "message", "subject", "vaildMessage"];
 
   connect() {
     this.invalidFields = [this.firstNameTarget, this.lastNameTarget, this.emailTarget, this.messageTarget, this.subjectTarget]
@@ -52,12 +52,10 @@ static targets = ["firstName", "lastName", "email", "message", "subject", "vaild
       field.classList.add("bg-red-50");
       field.classList.remove("bg-emerald-50");
       this.invalidFields.push(field);
-      console.log(this.invalidFields);
     } else {
       field.classList.add("bg-emerald-50");
       field.classList.remove("bg-red-50");
       this.invalidFields = this.invalidFields.filter((f) => f !== field);
-      console.log(this.invalidFields);
     }
   }
 
@@ -66,19 +64,16 @@ static targets = ["firstName", "lastName", "email", "message", "subject", "vaild
       field.classList.add("bg-red-50");
       field.classList.remove("bg-emerald-50");
       this.invalidFields.push(field);
-      console.log(this.invalidFields);
     } else {
       if (this.validateEmailFormat(field.value)) {
         field.classList.remove("bg-red-50");
         field.classList.add("bg-emerald-50");
         this.invalidFields = this.invalidFields.filter((f) => f !== field);
-        console.log(this.invalidFields);
 
       } else {
         field.classList.add("bg-red-50");
         field.classList.remove("bg-emerald-50");
         this.invalidFields.push(field);
-        console.log(this.invalidFields);
       }
     }
   }

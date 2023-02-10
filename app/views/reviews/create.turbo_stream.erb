@@ -1,0 +1,10 @@
+
+<%= turbo_stream.replace "review_tab" do %>
+  <%= turbo_frame_tag "review_tab" do %>
+    <div class="relative bg-white" data-tabs-target="reviewTab">
+      <%= render partial: "reviews/review", locals: {review: @review} %>
+    </div>
+  <% end %>
+<% end %>
+
+<%= turbo_stream.replace "flash_messages", partial: "shared/flash_messages", locals: {heading: t(".success")} %>
