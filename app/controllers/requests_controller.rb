@@ -4,6 +4,7 @@ class RequestsController < ApplicationController
   def create
     @request = Request.new(request_params)
     if @request.save
+      RequestMailer.received_request(@request).deliver_now
       flash.now[:notice] = t(".success")
       @request = Request.new
       respond_to do |format|
