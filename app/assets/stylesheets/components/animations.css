@@ -42,3 +42,19 @@
     opacity: 1;
   }
 }
+
+
+.item-animate-up {
+  animation: appear-up 1s ease-in-out;
+}
+
+@keyframes appear-up {
+  0% {
+    transform: translateY(-40px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
