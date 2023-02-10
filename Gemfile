@@ -14,7 +14,6 @@ gem "tzinfo-data", platforms: %i[mingw mswin x64_mingw jruby]
 gem "bootsnap", require: false
 
 # Assets
-gem "sassc-rails"
 gem "sprockets-rails"
 gem "tailwindcss-rails"
 gem "importmap-rails"
