@@ -17,6 +17,7 @@ gem "bootsnap", require: false
 gem "sprockets-rails"
 gem "tailwindcss-rails"
 gem "importmap-rails"
+gem "inline_svg"
 
 group :development, :test do
   gem "debug", platforms: %i[mri mingw x64_mingw]

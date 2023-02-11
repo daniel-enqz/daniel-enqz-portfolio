@@ -1,6 +1,6 @@
 <div class="flex justify-between rounded-md bg-red-50 p-4 item-animate-up" data-controller="alert" data-alert-target="alert">
   <div class="flex items-start">
-    <i class="fa-solid fa-circle-xmark text-red-400 mt-0.5"></i>
+    <%= inline_svg_tag("cross", class: "text-red-400 mt-0.5", aria_hidden: true) %>
     <div class="ml-3">
       <h3 class="text-sm font-semibold text-red-800"><%= heading %></h3>
       <div class="mt-2 text-sm text-red-700">
