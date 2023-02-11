@@ -1,6 +1,6 @@
 <div class="alert alert-success rounded-md bg-green-50 p-4 item-animate-up" data-controller="alert" data-alert-target="alert">
   <div class="flex items-center">
-    <i class="fa-solid fa-circle-check text-green-400"></i>
+    <%= inline_svg_tag("check", class: "text-green-400 stroke-current", aria_hidden: true) %>
     <div class="ml-3">
       <p class="text-sm font-medium text-green-800"><%= message %></p>
     </div>
