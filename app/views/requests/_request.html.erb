@@ -24,7 +24,10 @@
       <div>
         <div class="flex justify-between">
           <%= f.label :first_name, "First name", class: "block text-sm font-medium text-gray-700" %>
-          <p class="hidden text-sm font-medium text-emerald-400 item-animate-right" data-form--validator-target="vaildMessage">Valid<i class="mx-1 fa-solid fa-circle-check"></i></p>
+          <p class="hidden text-sm font-medium text-emerald-400 item-animate-right" data-form--validator-target="vaildMessage">
+            Valid
+            <%= inline_svg_tag("line-check", class: "text-green-400 w-4 h-4 inline-block", aria_hidden: true) %>
+          </p>
         </div>
         <div class="mt-1">
           <%= f.text_field :first_name, class: "block w-full rounded-md  border-transparent focus:border-transparent focus:ring-transparent py-3 px-4 drop-shadow-md  transition ease-in-out delay-100", data: { "form--validator-target": "field firstName" } %>
@@ -33,7 +36,10 @@
       <div>
         <div class="flex justify-between">
           <%= f.label :last_name, "Last name", class: "block text-sm font-medium text-gray-700" %>
-          <p class="hidden text-sm font-medium text-emerald-400 item-animate-right" data-form--validator-target="vaildMessage">Valid<i class="mx-1 fa-solid fa-circle-check"></i></p>
+          <p class="hidden text-sm font-medium text-emerald-400 item-animate-right" data-form--validator-target="vaildMessage">
+            Valid
+            <%= inline_svg_tag("line-check", class: "text-green-400 w-4 h-4 inline-block", aria_hidden: true) %>
+          </p>
         </div>
         <div class="mt-1">
           <%= f.text_field :last_name, class: "block w-full rounded-md border-transparent focus:border-transparent focus:ring-transparent py-3 px-4 drop-shadow-md  transition ease-in-out delay-100", data: { "form--validator-target": "lastName" } %>
@@ -42,7 +48,10 @@
       <div class="sm:col-span-2">
         <div class="flex justify-between">
           <%= f.label :subject, "Subject", class: "block text-sm font-medium text-gray-700" %>
-          <p class="hidden text-sm font-medium text-emerald-400 item-animate-right" data-form--validator-target="vaildMessage">Valid<i class="mx-1 fa-solid fa-circle-check"></i></p>
+          <p class="hidden text-sm font-medium text-emerald-400 item-animate-right" data-form--validator-target="vaildMessage">
+            Valid
+            <%= inline_svg_tag("line-check", class: "text-green-400 w-4 h-4 inline-block", aria_hidden: true) %>
+          </p>
         </div>
         <div class="mt-1">
           <%= f.select :subject, Request::SUBJECTS, {}, class: "block w-full rounded-md border-transparent focus:border-transparent focus:ring-transparent py-3 px-4 drop-shadow-md  transition ease-in-out delay-100", data: { "form--validator-target": "field subject" } %>
@@ -51,7 +60,10 @@
       <div class="sm:col-span-2">
         <div class="flex justify-between">
           <%= f.label :email, "Email", class: "block text-sm font-medium text-gray-700" %>
-          <p class="hidden text-sm font-medium text-emerald-400 item-animate-right" data-form--validator-target="vaildMessage">Valid<i class="mx-1 fa-solid fa-circle-check"></i></p>
+          <p class="hidden text-sm font-medium text-emerald-400 item-animate-right" data-form--validator-target="vaildMessage">
+            Valid
+            <%= inline_svg_tag("line-check", class: "text-green-400 w-4 h-4 inline-block", aria_hidden: true) %>
+          </p>
         </div>
         <div class="mt-1">
           <%= f.text_field :email, class: "autofill-color block placeholder:text-slate-400 w-full rounded-md border-transparent focus:border-transparent focus:ring-transparent py-3 px-4 drop-shadow-md  transition ease-in-out delay-100", data: { "form--validator-target": "field email"}, placeholder: "you@email.com" %>
@@ -60,7 +72,10 @@
       <div class="sm:col-span-2">
         <div class="flex justify-between">
           <%= f.label :message, "Message", class: "block text-sm font-medium text-gray-700" %>
-          <p class="hidden text-sm font-medium text-emerald-400 item-animate-right" data-form--validator-target="vaildMessage">Valid<i class="mx-1 fa-solid fa-circle-check"></i></p>
+          <p class="hidden text-sm font-medium text-emerald-400 item-animate-right" data-form--validator-target="vaildMessage">
+            Valid
+            <%= inline_svg_tag("line-check", class: "text-green-400 w-4 h-4 inline-block", aria_hidden: true) %>
+          </p>
         </div>
         <div class="mt-1">
           <%= f.text_area :message, rows: 4, class: "block w-full placeholder:text-slate-400 rounded-md border-transparent focus:border-transparent focus:ring-transparent py-3 px-4 shadow-md", data: { "form--validator-target": "field message" }, placeholder: "I would love to schedule a class to improve my data structures and algorithm skills 💪" %>
