@@ -6,7 +6,7 @@ export default class extends Controller {
 
   toggleDropdown() {
     this.dropdownTarget.classList.toggle("hidden")
-    this.dropdownButtonTarget.innerHTML = this.dropdownTarget.classList.contains("hidden") ? '<i class="fa-solid fa-bars"></i>' : '<i class="fa-solid fa-bars-staggered"></i>'
+    this.dropdownButtonTarget.innerHTML = this.dropdownTarget.classList.contains("hidden") ? 'toggle' : 'untoggle'
     this.dropdownButtonTarget.classList.toggle("animate-bounce")
   }
 }
