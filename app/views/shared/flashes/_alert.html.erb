@@ -1,10 +1,10 @@
 <div class="flex justify-between rounded-md bg-red-50 p-4 item-animate-up" data-controller="alert" data-alert-target="alert">
-  <div class="ml-3">
+  <div>
     <h3 class="flex text-sm font-semibold text-red-800">
-      <%= inline_svg_tag("cross", class: "text-red-400", aria_hidden: true) %>
-      <%= heading %>
+      <%= inline_svg_tag("cross", class: "text-red-400 w-5 h-5", aria_hidden: true) %>
+      <%= heading, class: "ml-2" %>
     </h3>
-    <div class="mt-2 text-sm text-red-700">
+    <div class="mt-2 text-sm text-red-700 ml-3">
       <ul role="list" class="list-disc space-y-1 pl-5">
         <% message.split(", ").each do |error| %>
           <li><%= error %></li>
