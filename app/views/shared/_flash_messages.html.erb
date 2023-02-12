@@ -1,9 +1,5 @@
 <%= turbo_frame_tag "flash_messages" do %>
   <% flash.each do |type, message| %>
-    <% if type == "alert" %>
-      <%= render partial: "shared/flashes/alert", locals: { message: message, heading: heading } %>
-    <% else %>
-      <%= render partial: "shared/flashes/notice", locals: { message: message } %>
-    <% end %>
+      <%= render partial: "shared/flashes/#{type}", locals: { message: message, body: body } %>
   <% end %>
 <% end %>

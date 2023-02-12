@@ -7,4 +7,4 @@
   <% end %>
 <% end %>
 
-<%= turbo_stream.replace "flash_messages", partial: "shared/flash_messages" %>
+<%= turbo_stream.replace "flash_messages", partial: "shared/flash_messages", locals: { body: "" } %>
