@@ -6,6 +6,7 @@ export default class extends Controller {
 
   toggleDropdown() {
     this.dropdownTarget.classList.toggle("hidden")
+    this.dropdownTarget.classList.add("item-animate")
     this.dropdownButtonTarget.classList.toggle("animate-bounce")
   }
 }
