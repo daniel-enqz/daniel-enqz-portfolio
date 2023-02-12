@@ -1,7 +1,7 @@
 <%= turbo_stream.replace "request_tab" do %>
   <%= turbo_frame_tag "request_tab" do %>
     <div class="overflow-hidden bg-white py-16 px-6 lg:px-8 lg:py-24" data-tabs-target="requestTab">
-      <%= render partial: "requests/request", locals: {request: @request} %>
+      <%= render partial: "requests/new", locals: {request: @request} %>
     </div>
   <% end %>
 <% end %>

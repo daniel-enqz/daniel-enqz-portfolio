@@ -1,85 +1,70 @@
 import { Controller } from "@hotwired/stimulus"
 
 export default class extends Controller {
-static targets = ["form", "firstName", "lastName", "email", "message", "subject", "vaildMessage"];
+  static targets = ["form", "firstName", "lastName", "email", "message", "subject", "validMessage"];
 
   connect() {
-    this.invalidFields = [this.firstNameTarget, this.lastNameTarget, this.emailTarget, this.messageTarget, this.subjectTarget]
     this.validateFields();
   }
 
   validateFields() {
-    this.firstNameTarget.addEventListener("input", () => {
-      this.validateField(this.firstNameTarget, "first_name");
-      this.validateForm();
-    });
+    this.validateInputField(this.firstNameTarget, "first_name");
+    this.validateInputField(this.lastNameTarget, "last_name");
+    this.validateInputField(this.emailTarget, "email", this.validateEmailFormat.bind(this));
+    this.validateInputField(this.messageTarget, "message");
+    this.validateInputField(this.subjectTarget, "subject");
+  }
 
-    this.lastNameTarget.addEventListener("input", () => {
-      this.validateField(this.lastNameTarget, "last_name");
-      this.validateForm();
-    });
+  addSuccessClasses(field) {
+    field.classList.add("bg-emerald-50");
+    field.classList.add("border-emerald-300");
+    field.classList.remove("bg-red-50");
+    field.classList.remove("border-red-300");
+  }
 
-    this.emailTarget.addEventListener("input", () => {
-      this.validateEmail(this.emailTarget, "email");
-      this.validateForm();
-    });
+  addErrorClasses(field) {
+    field.classList.add("bg-red-50");
+    field.classList.add("border-red-300");
+    field.classList.remove("bg-emerald-50");
+    field.classList.remove("border-emerald-300");
+  }
 
-    this.messageTarget.addEventListener("input", () => {
-      this.validateField(this.messageTarget, "message");
+  validateInputField(field, fieldName, validator = this.validateNotEmpty.bind(this)) {
+    field.addEventListener("input", () => {
+      validator(field, fieldName)
       this.validateForm();
     });
+  }
 
-    this.subjectTarget.addEventListener("input", () => {
-      this.validateField(this.subjectTarget, "subject");
-      this.validateForm();
-    });
+  validateNotEmpty(field, fieldName) {
+    if (field.value === "") {
+      this.addErrorClasses(field);
+    } else {
+      this.addSuccessClasses(field);
+    }
+  }
+
+  validateEmailFormat(field, fieldName) {
+    const isValid = /\S+@\S+\.\S+/.test(field.value);
+
+    if (isValid) {
+      this.addSuccessClasses(field);
+    } else {
+      this.addErrorClasses(field);
+    }
   }
 
   validateForm() {
-    if (this.invalidFields.length === 0) {
-      this.vaildMessageTargets.forEach((message) => {
-        message.classList.remove("hidden");
-      });
-    } else {
-      this.vaildMessageTargets.forEach((message) => {
-        message.classList.add("hidden");
-      });
-    }
-  }
+    const invalidFields = [
+      this.firstNameTarget,
+      this.lastNameTarget,
+      this.emailTarget,
+      this.messageTarget,
+      this.subjectTarget
+    ].filter(field => field.value === "" || field.classList.contains("bg-red-50"));
 
-  validateField(field, fieldName) {
-    if (field.value === "") {
-      field.classList.add("bg-red-50");
-      field.classList.remove("bg-emerald-50");
-      this.invalidFields.push(field);
-    } else {
-      field.classList.add("bg-emerald-50");
-      field.classList.remove("bg-red-50");
-      this.invalidFields = this.invalidFields.filter((f) => f !== field);
-    }
-  }
-
-  validateEmail(field, fieldName) {
-    if (field.value === "") {
-      field.classList.add("bg-red-50");
-      field.classList.remove("bg-emerald-50");
-      this.invalidFields.push(field);
-    } else {
-      if (this.validateEmailFormat(field.value)) {
-        field.classList.remove("bg-red-50");
-        field.classList.add("bg-emerald-50");
-        this.invalidFields = this.invalidFields.filter((f) => f !== field);
-
-      } else {
-        field.classList.add("bg-red-50");
-        field.classList.remove("bg-emerald-50");
-        this.invalidFields.push(field);
-      }
-    }
-  }
-
-  validateEmailFormat(email) {
-    const re = /\S+@\S+\.\S+/;
-    return re.test(email);
+    this.validMessageTargets.forEach((message) => {
+      message.classList.toggle("hidden", invalidFields.length > 0);
+    });
   }
 }
