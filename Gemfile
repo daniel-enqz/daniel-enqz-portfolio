@@ -24,6 +24,7 @@ group :development, :test do
   gem "standard"
   gem "rubocop-rails", require: false
   gem "rubocop-rspec", require: false
+  gem "pry-byebug" # call 'byebug' anywhere in the code to stop execution and get a debugger console
 end
 
 group :development do

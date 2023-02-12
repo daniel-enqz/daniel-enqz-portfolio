@@ -1,16 +1,17 @@
 <div data-controller="tabs">
+  <%# First tab is active by default (meaning it has active tab colors and tab is not hidden) %>
+
   <%= render "tabs" %>
 
-  <%# First tab should have animation, in order to avoid handle it with connect() %>
   <%= turbo_frame_tag "request_tab" do %>
-    <div class="overflow-hidden bg-white py-16 px-6 lg:px-8 lg:py-24 item-animate" data-tabs-target="requestTab">
+    <div class="overflow-hidden bg-white py-16 px-6 lg:px-8 lg:py-24 item-animate" data-tabs-target="requestTab" id="default">
       <%= render partial: "requests/request", locals: {request: @request} %>
     </div>
   <% end %>
 
 
   <%= turbo_frame_tag "review_tab" do %>
-    <div class="relative bg-white hidden" data-tabs-target="reviewTab">
+    <div class="relative bg-white item-animate hidden" data-tabs-target="reviewTab">
       <%= render partial: "reviews/review", locals: {review: @review} %>
     </div>
   <% end %>

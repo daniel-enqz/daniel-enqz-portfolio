@@ -1,4 +1,3 @@
-
 <%= turbo_stream.replace "request_tab" do %>
   <%= turbo_frame_tag "request_tab" do %>
     <div class="overflow-hidden bg-white py-16 px-6 lg:px-8 lg:py-24" data-tabs-target="requestTab">
@@ -7,4 +6,4 @@
   <% end %>
 <% end %>
 
-<%= turbo_stream.replace "flash_messages", partial: "shared/flash_messages", locals: { body: "" } %>
+<%= turbo_stream.replace "flash_messages", partial: "shared/flash_messages" %>

@@ -1,5 +1,5 @@
 <%= turbo_frame_tag "flash_messages" do %>
-  <% flash.each do |type, message| %>
-      <%= render partial: "shared/flashes/#{type}", locals: { message: message, body: body } %>
+  <% flash.each do |type, values| %>
+      <%= render partial: "shared/flashes/#{type}", locals: { message: values[:message], body: values[:body] } %>
   <% end %>
 <% end %>
