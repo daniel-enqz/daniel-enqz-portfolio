@@ -11,7 +11,7 @@
 
 
   <%= turbo_frame_tag "review_tab" do %>
-    <div class="relative bg-white item-animate hidden" data-tabs-target="reviewTab">
+    <div class="relative bg-white hidden" data-tabs-target="reviewTab">
       <%= render partial: "reviews/new", locals: {review: @review} %>
     </div>
   <% end %>
