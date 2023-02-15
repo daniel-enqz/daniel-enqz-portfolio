@@ -28,11 +28,12 @@ group :development, :test do
   gem "standard"
   gem "rubocop-rails", require: false
   gem "rubocop-rspec", require: false
-  gem "pry-byebug" # call 'byebug' anywhere in the code to stop execution and get a debugger console
+  gem "pry-byebug" # call 'byebug' anywhere in the code to stop execution and get a debugger consol
 end
 
 group :development do
   gem "web-console"
+  gem "letter_opener"
 end
 
 group :test do
