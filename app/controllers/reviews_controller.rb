@@ -4,13 +4,13 @@ class ReviewsController < ApplicationController
   def create
     @review = Review.new(review_params)
     if @review.save
-      flash.now[:notice] = {type: :notice, message: t(".success"), body: ""}
+      flash.now[:success] = {type: :success, message: t(".success"), body: ""}
       @review = Review.new
       respond_to do |format|
         format.turbo_stream
       end
     else
-      flash.now[:alert] = {type: :alert, message: t(".error"), body: @review.errors.full_messages.join(", ")}
+      flash.now[:error] = {type: :error, message: t(".error"), body: @review.errors.full_messages.join(", ")}
       render turbo_stream: turbo_stream.replace(:flash_messages, partial: "shared/flash_messages")
     end
   end

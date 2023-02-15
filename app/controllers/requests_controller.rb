@@ -5,13 +5,13 @@ class RequestsController < ApplicationController
     @request = Request.new(request_params)
     if @request.save
       RequestMailer.received_request(@request).deliver_now
-      flash.now[:notice] = {type: :notice, message: t(".success"), body: ""}
+      flash.now[:success] = {type: :success, message: t(".success"), body: ""}
       @request = Request.new
       respond_to do |format|
         format.turbo_stream
       end
     else
-      flash.now[:alert] = {type: :alert, message: t(".error"), body: @request.errors.full_messages.join(", ")}
+      flash.now[:error] = {type: :error, message: t(".error"), body: @request.errors.full_messages.join(", ")}
       render turbo_stream: turbo_stream.replace(:flash_messages, partial: "shared/flash_messages")
     end
   end

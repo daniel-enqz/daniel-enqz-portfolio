@@ -15,6 +15,7 @@ gem "bootsnap", require: false
 
 # Frontend
 gem "view_component"
+gem "dry-initializer"
 
 # Assets
 gem "sprockets-rails"
