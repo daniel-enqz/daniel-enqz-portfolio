@@ -12,10 +12,6 @@ module DanielEnqz
 
     config.load_defaults 7.0
     config.exceptions_app = routes
-
-    config.action_mailer.delivery_method = :postmark
-    config.action_mailer.postmark_settings = {api_token: Rails.application.credentials.postmark[:token]}
-
     # Configuration for the application, engines, and railties goes here.
     #
     # These settings can be overridden in specific environments using the files
