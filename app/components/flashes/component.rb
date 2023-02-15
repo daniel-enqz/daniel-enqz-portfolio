@@ -5,6 +5,8 @@ class Flashes::Component < ViewComponent::Base
     @message = message
     @body = body
     @type = type
+    @flash_color = flash_color
+    @icon = icon
   end
 
   def flash_color
