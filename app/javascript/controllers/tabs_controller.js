@@ -18,7 +18,6 @@ export default class extends Controller {
   }
 
   toggleTab(button) {
-    // to acces the data-tabs-target, you need to use:
     const identifier = button.target.id
     this.setTab(this[`${identifier}TabTarget`], button.target, identifier)
     this.hideAllOtherTabs(identifier)
