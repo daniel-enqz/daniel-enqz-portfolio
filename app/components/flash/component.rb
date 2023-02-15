@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class Flashes::Component < ViewComponent::Base
+class Flash::Component < ViewComponent::Base
   def initialize(message: nil, body: nil, type: nil)
     @message = message
     @body = body

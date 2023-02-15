@@ -1,5 +1,5 @@
 <%= turbo_frame_tag "flash_messages" do %>
   <% flash.each do |type, values| %>
-      <%= render Flashes::Component.new(message: values[:message], body: values[:body], type: type) %>
+      <%= render Flash::Component.new(message: values[:message], body: values[:body], type: type) %>
   <% end %>
 <% end %>
