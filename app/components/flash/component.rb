@@ -9,7 +9,7 @@ class Flash::Component < ApplicationViewComponent
   def icon
     {
       alert: "exclamation.svg",
-      notice: "information.svg",
+      notice: "info.svg",
       error: "cross.svg",
       success: "check.svg"
     }[type.to_sym]

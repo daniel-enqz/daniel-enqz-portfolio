@@ -1,57 +1,61 @@
 <div class="grid grid-cols-1 gap-y-6  place-items-stretch">
   <div class="grid grid-cols-2 gap-3">
     <div>
-      <div class="flex justify-between">
-        <%= f.label :first_name, "First name", class: "block text-sm font-medium text-gray-700" %>
-        <p class="hidden text-sm font-medium text-emerald-400 item-animate-right" data-form--validator-target="validMessage">
+      <div class="flex justify-between items-center">
+        <%= f.label :first_name, "First name", class: "block text-sm font-bold text-gray-700" %>
+        <p class="hidden text-sm font-bold text-emerald-400 item-animate-right" data-form--validator-target="validField">
           Valid
-          <%= inline_svg_tag("line-check.svg", class: "text-green-400 w-3 h-3 inline-block", aria_hidden: true) %>
+          <%= inline_svg_tag("line-check.svg", class: "text-green-400 w-4 h-4 inline-block", aria_hidden: true) %>
         </p>
       </div>
       <%= f.text_field :first_name, class: "block w-full rounded-md border-transparent border-2 focus:bg-white focus:border-transparent focus:ring-transparent py-3 px-4 drop-shadow-md  transition ease-in-out delay-100", data: { "form--validator-target": "firstName" } %>
     </div>
     <div>
-      <div class="flex justify-between">
-        <%= f.label :last_name, "Last name", class: "block text-sm font-medium text-gray-700" %>
-        <p class="hidden text-sm font-medium text-emerald-400 item-animate-right" data-form--validator-target="validMessage">
+      <div class="flex justify-between items-center">
+        <%= f.label :last_name, "Last name", class: "block text-sm font-bold text-gray-700" %>
+        <p class="hidden text-sm font-bold text-emerald-400 item-animate-right" data-form--validator-target="validField">
           Valid
-          <%= inline_svg_tag("line-check.svg", class: "text-green-400 w-3 h-3 inline-block", aria_hidden: true) %>
+          <%= inline_svg_tag("line-check.svg", class: "text-green-400 w-4 h-4 inline-block", aria_hidden: true) %>
         </p>
       </div>
       <%= f.text_field :last_name, class: "block w-full rounded-md border-transparent border-2 focus:bg-white focus:border-transparent focus:ring-transparent py-3 px-4 drop-shadow-md  transition ease-in-out delay-100", data: { "form--validator-target": "lastName" } %>
     </div>
   </div>
   <div>
-  <div class="flex justify-between">
-      <%= f.label :email, "Email", class: "block text-sm font-medium text-gray-700" %>
-      <p class="hidden text-sm font-medium text-emerald-400 item-animate-right" data-form--validator-target="validMessage">
+  <div class="flex justify-between items-center">
+      <%= f.label :email, "Email", class: "block text-sm font-bold text-gray-700" %>
+      <p class="hidden text-sm font-bold text-emerald-400 item-animate-right" data-form--validator-target="validField">
         Valid
-        <%= inline_svg_tag("line-check.svg", class: "text-green-400 w-3 h-3 inline-block", aria_hidden: true) %>
+        <%= inline_svg_tag("line-check.svg", class: "text-green-400 w-4 h-4 inline-block", aria_hidden: true) %>
       </p>
   </div>
   <%= f.text_field :email, class: "autofill-color block placeholder:text-slate-400 w-full rounded-md border-transparent border-2 focus:bg-white focus:border-transparent focus:ring-transparent py-3 px-4 drop-shadow-md  transition ease-in-out delay-100", data: { "form--validator-target": "email"}, placeholder: "you@email.com" %>
   </div>
   <div>
-    <div class="flex justify-between">
-      <%= f.label :message, "Message", class: "block text-sm font-medium text-gray-700" %>
-      <p class="hidden text-sm font-medium text-emerald-400 item-animate-right" data-form--validator-target="validMessage">
+    <div class="flex justify-between items-center">
+      <%= f.label :message, "Message", class: "block text-sm font-bold text-gray-700" %>
+      <p class="hidden text-sm font-bold text-emerald-400 item-animate-right" data-form--validator-target="validField">
         Valid
-        <%= inline_svg_tag("line-check.svg", class: "text-green-400 w-3 h-3 inline-block", aria_hidden: true) %>
+        <%= inline_svg_tag("line-check.svg", class: "text-green-400 w-4 h-4 inline-block", aria_hidden: true) %>
+      </p>
+      <p class="hidden text-sm font-bold text-red-400 item-animate-right" data-form--validator-target="invalidMessage">
+        <%= inline_svg_tag("exclamation.svg", class: "font-bold text-red-400 w-4 h-4 inline-block", aria_hidden: true) %>
+        (10 and 500 characters)
       </p>
     </div>
     <%= f.text_area :message, rows: 4, class: "block w-full placeholder:text-slate-400 rounded-md border-transparent border-2 focus:bg-white focus:border-transparent focus:ring-transparent py-3 px-4 shadow-md", data: { "form--validator-target": "message" }, placeholder: "How was your experience? 🍀" %>
   </div>
   <div>
-    <div class="flex justify-between">
-      <%= f.label :rating, "Leave your rating", class: "block text-sm font-medium text-gray-700" %>
-      <p class="hidden text-sm font-medium text-emerald-400 item-animate-right" data-form--validator-target="validMessage">
+    <div class="flex justify-between items-center">
+      <%= f.label :rating, "Leave your rating", class: "block text-sm font-bold text-gray-700" %>
+      <p class="hidden text-sm font-bold text-emerald-400 item-animate-right" data-form--validator-target="validField">
         Valid
-        <%= inline_svg_tag("line-check.svg", class: "text-green-400 w-3 h-3 inline-block", aria_hidden: true) %>
+        <%= inline_svg_tag("line-check.svg", class: "text-green-400 w-4 h-4 inline-block", aria_hidden: true) %>
       </p>
     </div>
     <%= f.select :rating, Review::RATING.map { |rating| [rating[0], rating[1]] }, {}, class: "block w-full rounded-md border-transparent border-2 focus:bg-white focus:border-transparent focus:ring-transparent py-3 px-4 drop-shadow-md  transition ease-in-out delay-100", data: { "form--validator-target": "subject" } %>
   </div>
-  <div class="place-self-center w-3/4  lg:place-self-start lg:w-1/4">
-    <%= f.submit "Submit", class: "cursor-pointer w-full inline-flex items-center justify-center rounded-md px-6 py-3 text-base font-medium text-black shadow-sm transition ease-in-out bg-transparent hover:-translate-y-1 hover:scale-110 hover:bg-green-300 hover:text-white duration-300", type: "submit" %>
+  <div class="place-self-center w-3/4 lg:place-self-start lg:w-1/4">
+    <%= f.submit "Submit", class: "cursor-pointer w-full inline-flex items-center justify-center rounded-md px-6 py-3 text-base font-bold text-black shadow-sm transition ease-in-out bg-transparent hover:-translate-y-1 hover:scale-110 hover:bg-green-300 hover:text-white hover:font-black duration-300", type: "submit" %>
   </div>
 </div>

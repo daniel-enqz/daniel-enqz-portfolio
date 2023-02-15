@@ -1,18 +1,18 @@
 import { Controller } from "@hotwired/stimulus"
 
 export default class extends Controller {
-  static targets = ["form", "firstName", "lastName", "email", "message", "subject", "validMessage"];
+  static targets = ["form", "firstName", "lastName", "email", "message", "subject", "validField", "invalidMessage"];
 
   connect() {
     this.validateFields();
   }
 
   validateFields() {
-    this.validateInputField(this.firstNameTarget, "first_name");
-    this.validateInputField(this.lastNameTarget, "last_name");
-    this.validateInputField(this.emailTarget, "email", this.validateEmailFormat.bind(this));
-    this.validateInputField(this.messageTarget, "message");
-    this.validateInputField(this.subjectTarget, "subject");
+    this.validateInputField(this.firstNameTarget);
+    this.validateInputField(this.lastNameTarget);
+    this.validateInputField(this.emailTarget, this.validateEmailFormat.bind(this));
+    this.validateInputField(this.messageTarget, this.validateMessage.bind(this));
+    this.validateInputField(this.subjectTarget);
   }
 
   addSuccessClasses(field) {
@@ -29,14 +29,14 @@ export default class extends Controller {
     field.classList.remove("border-emerald-300");
   }
 
-  validateInputField(field, fieldName, validator = this.validateNotEmpty.bind(this)) {
+  validateInputField(field, validator = this.validateNotEmpty.bind(this)) {
     field.addEventListener("input", () => {
-      validator(field, fieldName)
+      validator(field)
       this.validateForm();
     });
   }
 
-  validateNotEmpty(field, fieldName) {
+  validateNotEmpty(field) {
     if (field.value === "") {
       this.addErrorClasses(field);
     } else {
@@ -44,13 +44,26 @@ export default class extends Controller {
     }
   }
 
-  validateEmailFormat(field, fieldName) {
+  validateEmailFormat(field) {
     const isValid = /\S+@\S+\.\S+/.test(field.value);
 
     if (isValid) {
       this.addSuccessClasses(field);
     } else {
       this.addErrorClasses(field);
+    }
+  }
+
+  validateMessage(field) {
+    if (field.value.length < 10) {
+      this.addErrorClasses(field);
+      this.invalidMessageTarget.classList.remove("hidden");
+    } else if (field.value.length > 500) {
+      this.addErrorClasses(field);
+      this.invalidMessageTarget.classList.remove("hidden");
+    } else {
+      this.addSuccessClasses(field);
+      this.invalidMessageTarget.classList.add("hidden");
     }
   }
 
@@ -63,7 +76,7 @@ export default class extends Controller {
       this.subjectTarget
     ].filter(field => field.value === "" || field.classList.contains("bg-red-50"));
 
-    this.validMessageTargets.forEach((message) => {
+    this.validFieldTargets.forEach((message) => {
       message.classList.toggle("hidden", invalidFields.length > 0);
     });
   }
