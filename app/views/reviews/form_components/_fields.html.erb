@@ -56,6 +56,6 @@
     <%= f.select :rating, Review::RATING.map { |rating| [rating[0], rating[1]] }, {}, class: "block w-full rounded-md border-transparent border-2 focus:bg-white focus:border-transparent focus:ring-transparent py-3 px-4 drop-shadow-md  transition ease-in-out delay-100", data: { "form--validator-target": "subject" } %>
   </div>
   <div class="place-self-center w-3/4 lg:place-self-start lg:w-1/4">
-    <%= f.submit "Submit", class: "cursor-pointer w-full inline-flex items-center justify-center rounded-md px-6 py-3 text-base font-bold text-black shadow-sm transition ease-in-out bg-transparent hover:-translate-y-1 hover:scale-110 hover:bg-green-300 hover:text-white hover:font-black duration-300", type: "submit" %>
+    <%= f.submit "Submit", class: "cursor-pointer w-full inline-flex items-center justify-center rounded-md px-6 py-3 text-base font-bold text-black shadow-md scale-95 transition ease-in-out bg-transparent hover:border-2 hover:border-green-200 hover:scale-90 hover:bg-green-300 hover:text-white hover:font-black duration-300", type: "submit" %>
   </div>
 </div>
