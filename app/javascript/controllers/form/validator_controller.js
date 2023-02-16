@@ -55,7 +55,7 @@ export default class extends Controller {
   }
 
   validateMessage(field) {
-    if (field.value.length < 10) {
+    if (field.value.length < 25) {
       this.addErrorClasses(field);
       this.invalidMessageTarget.classList.remove("hidden");
     } else if (field.value.length > 500) {

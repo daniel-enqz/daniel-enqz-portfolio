@@ -13,6 +13,6 @@ class Request < ApplicationRecord
   validates :last_name, presence: true
   validates :email, presence: true, format: {with: URI::MailTo::EMAIL_REGEXP}
   validates :message, presence: true
-  validates :message, length: {minimum: 10, maximum: 500}
+  validates :message, length: {minimum: 25, maximum: 500}
   validates :subject, presence: true, inclusion: {in: SUBJECTS}
 end
