@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <title>Daniel Enqz</title>
+    <%= favicon_link_tag 'profile/enqz-blue.webp', type: 'image/webp' %>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="description" content="Daniel Enqz portfolio">
     <%= csrf_meta_tags %>
@@ -9,6 +10,7 @@
     <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
+    <link rel="stylesheet" href="https://ga.jspm.io/npm:flatpickr@4.6.9/dist/flatpickr.min.css">
   </head>
 
   <body>
