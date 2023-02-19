@@ -62,6 +62,24 @@
     <%= f.text_area :message, rows: 4, class: "block w-full placeholder:text-slate-400 rounded-md border-transparent border-2 focus:bg-white focus:border-transparent focus:ring-transparent py-3 px-4 shadow-md", data: { "form--validator-target": "field message" }, placeholder: "I'm having trouble understanding Linked Lists and I would appreciate little help with my Rails config 💪" %>
   </div>
 </div>
+<div class="sm:col-span-2">
+  <div class="flex justify-between items-center">
+    <%= f.label :start_time, "Start time", class: "block text-sm font-bold text-gray-700" %>
+    <p class="hidden text-sm font-bold text-emerald-400 item-animate-right" data-form--validator-target="validField">
+      Valid
+      <%= inline_svg_tag("line-check.svg", class: "text-green-400 w-4 h-4 inline-block", aria_hidden: true) %>
+    </p>
+    <div class="mt-1">
+      <%= f.text_field :start_time,
+        data: {
+          class: "block w-full rounded-md border-transparent border-2 focus:bg-white focus:border-transparent focus:ring-transparent py-3 px-4 drop-shadow-md  transition ease-in-out delay-100",
+          controller: "flatpickr",
+          flatpickr_date_format: "Y-m-d",
+          flatpickr_min_date: Time.zone.now
+        } %>
+    </div>
+  </div>
+</div>
 <div class="sm:col-span-2 place-self-center w-3/4">
   <%= f.submit "Submit", class: "cursor-pointer inline-flex w-full items-center justify-center rounded-md px-6 py-3 text-base font-bold text-black shadow-md transition scale-95 ease-in-out bg-transparent hover:border-2 hover:font-black hover:scale-90 hover:border-green-200 hover:bg-green-300 hover:text-white duration-300" %>
 </div>
