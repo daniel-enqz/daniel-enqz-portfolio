@@ -69,15 +69,14 @@
       Valid
       <%= inline_svg_tag("line-check.svg", class: "text-green-400 w-4 h-4 inline-block", aria_hidden: true) %>
     </p>
-    <div class="mt-1">
-      <%= f.text_field :start_time,
-        data: {
-          class: "block w-full rounded-md border-transparent border-2 focus:bg-white focus:border-transparent focus:ring-transparent py-3 px-4 drop-shadow-md  transition ease-in-out delay-100",
-          controller: "flatpickr",
-          flatpickr_date_format: "Y-m-d",
-          flatpickr_min_date: Time.zone.now
-        } %>
-    </div>
+  </div>
+  <div class="mt-1">
+    <%= f.text_field :start_time, class: "block w-full rounded-md border-transparent border-2 focus:bg-white focus:border-transparent focus:ring-transparent py-3 px-4 drop-shadow-md  transition ease-in-out delay-100",
+      data: {
+        controller: "flatpickr",
+        flatpickr_date_format: "Y-m-d",
+        flatpickr_min_date: Time.zone.now
+      } %>
   </div>
 </div>
 <div class="sm:col-span-2 place-self-center w-3/4">
