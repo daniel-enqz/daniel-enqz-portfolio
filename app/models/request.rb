@@ -15,4 +15,5 @@ class Request < ApplicationRecord
   validates :message, presence: true
   validates :message, length: {minimum: 25, maximum: 500}
   validates :subject, presence: true, inclusion: {in: SUBJECTS}
+  validates :date, presence: true
 end
