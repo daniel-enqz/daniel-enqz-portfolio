@@ -23,16 +23,17 @@ gem "view_component"
 gem "sass-rails"
 
 group :development, :test do
-  gem "debug", platforms: %i[mri mingw x64_mingw]
+  gem "byebug", platforms: %i[mri mingw x64_mingw]
   gem "standard"
   gem "rubocop-rails", require: false
   gem "rubocop-rspec", require: false
-  gem "pry-byebug" # call 'byebug' anywhere in the code to stop execution and get a debugger consol
+  gem "pry-byebug"
 end
 
 group :development do
-  gem "web-console"
   gem "letter_opener"
+  gem "rack-mini-profiler"
+  gem "web-console"
 end
 
 group :test do
