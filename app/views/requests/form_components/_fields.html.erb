@@ -70,8 +70,8 @@
       <%= inline_svg_tag("line-check.svg", class: "text-green-400 w-4 h-4 inline-block", aria_hidden: true) %>
     </p>
   </div>
-  <div class="flatpickr-calendar-custom">
-    <%= f.text_field :date, data: { controller: "flatpickr", "form--validator-target": "calendar" }  %>
+  <div class="mt-1 flatpickr-calendar-custom">
+    <%= f.text_field :date, class: "block w-full rounded-md border-transparent border-2 focus:bg-white focus:border-transparent focus:ring-transparent py-3 px-4 drop-shadow-md  transition ease-in-out delay-100", data: { controller: "flatpickr", "form--validator-target": "calendar" }  %>
   </div>
 </div>
 <div class="sm:col-span-2 place-self-center w-3/4">

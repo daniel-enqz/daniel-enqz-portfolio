@@ -5,12 +5,10 @@ export default class extends Flatpickr {
   initialize() {
     //global options
      this.config = {
-      altInput: true,
       enableTime: true,
       time_24hr: true,
-      dateFormat: "Y-m-d H:i",
+      dateFormat: "l, F j at h:i K",
       inline: true,
-      altInputClass: "invisible",
       minDate: "today"
      };
    }
