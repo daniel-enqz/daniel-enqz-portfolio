@@ -14,15 +14,13 @@ gem "tzinfo-data", platforms: %i[mingw mswin x64_mingw jruby]
 gem "bootsnap", require: false
 gem "dry-initializer"
 
-# Frontend
-gem "view_component"
-gem "sass-rails"
-
-# Assets
+# Assets & Frontend
 gem "sprockets-rails"
 gem "tailwindcss-rails"
 gem "importmap-rails"
 gem "inline_svg"
+gem "view_component"
+gem "sass-rails"
 
 group :development, :test do
   gem "debug", platforms: %i[mri mingw x64_mingw]
