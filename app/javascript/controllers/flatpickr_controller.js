@@ -3,13 +3,9 @@ import Flatpickr from 'stimulus-flatpickr'
 export default class extends Flatpickr {
 
   initialize() {
-    //global options
      this.config = {
-      altInput: true,
-      altFormat: "F j at h:i K",
-      altInputClass: "invisible",
       enableTime: true,
-      dateFormat: "F j, Y",
+      dateFormat: "F j, Y at H:i",
       inline: true,
       minDate: "today"
      };
