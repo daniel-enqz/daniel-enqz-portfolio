@@ -1,8 +1,10 @@
 import Flatpickr from 'stimulus-flatpickr'
 
 export default class extends Flatpickr {
-  connect() {
-    this.config = {
+
+  initialize() {
+    //global options
+     this.config = {
       altInput: true,
       enableTime: true,
       time_24hr: true,
@@ -10,8 +12,6 @@ export default class extends Flatpickr {
       inline: true,
       altInputClass: "invisible",
       minDate: "today"
-    };
-
-    super.connect();
-  }
+     };
+   }
 }
