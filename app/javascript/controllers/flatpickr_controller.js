@@ -6,8 +6,7 @@ export default class extends Flatpickr {
     //global options
      this.config = {
       enableTime: true,
-      time_24hr: true,
-      dateFormat: "l, F j at h:i K",
+      dateFormat: "F j at h:i K",
       inline: true,
       minDate: "today"
      };
