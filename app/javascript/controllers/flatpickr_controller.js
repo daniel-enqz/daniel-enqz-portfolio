@@ -7,7 +7,9 @@ export default class extends Flatpickr {
       enableTime: true,
       dateFormat: "F j, Y at H:i",
       inline: true,
-      minDate: "today"
+      minDate: "today",
+      defaultHour: 9,
+      defaultMinute: 30,
      };
    }
 }

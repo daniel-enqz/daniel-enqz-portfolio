@@ -2,7 +2,6 @@ class RequestsController < ApplicationController
   before_action :request_params, only: [:create]
 
   def create
-    pry
     @request = Request.new(request_params)
     if @request.save
       RequestMailer.received_request(@request).deliver_now
