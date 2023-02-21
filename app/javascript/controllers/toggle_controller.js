@@ -2,13 +2,15 @@ import { Controller } from "@hotwired/stimulus"
 
 export default class extends Controller {
 
-  static targets = [ "button", "span", "timeFeedback", "timezoneValue" ]
+  static targets = [ "button", "span", "cross", "check", "timeFeedback", "timezoneValue" ]
 
   activateButton() {
     this.buttonTarget.classList.add("bg-teal-300")
     this.spanTarget.classList.add("translate-x-5")
     this.buttonTarget.classList.remove("bg-gray-200")
     this.spanTarget.classList.remove("translate-x-0")
+    this.crossTarget.classList.add("hidden")
+    this.checkTarget.classList.remove("hidden")
   }
 
   deactivateButton() {
@@ -16,6 +18,8 @@ export default class extends Controller {
     this.spanTarget.classList.remove("translate-x-5")
     this.buttonTarget.classList.add("bg-gray-200")
     this.spanTarget.classList.add("translate-x-0")
+    this.crossTarget.classList.remove("hidden")
+    this.checkTarget.classList.add("hidden")
   }
 
   displayTimeFeedback(time_zone = "CST") {
