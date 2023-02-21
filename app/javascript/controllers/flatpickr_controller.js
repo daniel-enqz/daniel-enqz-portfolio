@@ -10,7 +10,7 @@ export default class extends Flatpickr {
       minDate: "today",
       defaultHour: 9,
       defaultMinute: 30,
-      disableMobile: "true"
-     };
+      disableMobile: "true",
+    };
    }
 }
