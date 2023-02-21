@@ -70,10 +70,10 @@
       <%= inline_svg_tag("line-check.svg", class: "text-green-400 w-4 h-4 inline-block", aria_hidden: true) %>
     </p>
   </div>
-  <div class="mt-1 flatpickr-calendar-custom">
+  <div class="flatpickr-calendar-custom">
     <%= f.text_field :date, class: "block w-full rounded-md border-transparent border-2 focus:bg-white focus:border-transparent focus:ring-transparent py-3 px-4 drop-shadow-md  transition ease-in-out delay-100", data: { controller: "flatpickr", "form--validator-target": "calendar" }  %>
   </div>
 </div>
 <div class="sm:col-span-2 place-self-center w-3/4">
-  <%= f.submit "Submit", class: "cursor-pointer inline-flex w-full items-center justify-center rounded-md px-6 py-3 text-base font-bold text-black shadow-md transition scale-95 ease-in-out bg-transparent hover:border-2 hover:font-black hover:scale-90 hover:border-green-200 hover:bg-green-300 hover:text-white duration-300" %>
+  <%= f.submit "Submit", class: "cursor-pointer w-full inline-flex items-center justify-center rounded-md px-6 py-3 text-base border-4 border-transparent font-bold text-black shadow-md scale-95 transition ease-in-out bg-transparent hover:border-green-200 hover:scale-90 hover:bg-green-300 hover:text-white hover:font-black duration-300" %>
 </div>
