@@ -30,9 +30,10 @@
     border-bottom-right-radius: 25px;
   }
 
-  .numInput, .numInput::after, .numInput::before {
+  .numInput, .numInput:focus {
     font-size: 14px;
     --tw-ring-shadow: 0 0 #0000;
+    transform: scale(1);
   }
 
   .flatpickr-hour {
