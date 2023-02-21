@@ -7,6 +7,7 @@
     max-width: 100%;
   }
 
+  // Calendar Behavior
   .flatpickr-calendar {
     background-color: rgba(255,255,255,0.5);
     margin-top: 20px;
@@ -16,9 +17,27 @@
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
+  // Liitle Arrow Behavior
   .flatpickr-calendar.arrowBottom:after, .flatpickr-calendar.arrowBottom:before {
     border-bottom-color: transparent;
     border-top-color: transparent;
+  }
+
+
+  // Time Behavior
+  .flatpickr-time, .flatpickr-time::after, .flatpickr-time::before {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    --tw-scale-x: 0;
+    --tw-scale-y: 0;
+  }
+
+  .numInput {
+    --tw-ring-shadow: 0 0 #0000;
+  }
+
+  .flatpickr-hour {
+    border-bottom-left-radius: 25px;
   }
 
   // General days
@@ -58,5 +77,9 @@
   // Hover Behavior
   span.flatpickr-day.today:not(.selected):hover, span.flatpickr-day.prevMonthDay.today:not(.selected):hover, span.flatpickr-day.nextMonthDay.today:not(.selected):hover {
     border: 1px solid #ffffff;
+  }
+
+  &.selected:focus {
+    outline: none;
   }
 }
