@@ -25,15 +25,14 @@
 
 
   // Time Behavior
-  .flatpickr-time, .flatpickr-time::after, .flatpickr-time::before {
+  .flatpickr-time {
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
-    --tw-scale-x: 0;
-    --tw-scale-y: 0;
   }
 
-  .numInputWrapper {
-    transform: scale(0);
+  .numInput, .numInput::after, .numInput::before {
+    font-size: 14px;
+    --tw-ring-shadow: 0 0 #0000;
   }
 
   .flatpickr-hour {
