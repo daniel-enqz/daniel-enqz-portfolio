@@ -2,7 +2,7 @@ import { Controller } from "@hotwired/stimulus"
 
 export default class extends Controller {
 
-  static targets = [ "button", "span", "cross", "check" ]
+  static targets = [ "button", "span", "cross", "check", "timeFeedback", "timezoneValue" ]
 
   activateButton() {
     this.buttonTarget.classList.add("bg-teal-300")
@@ -22,6 +22,11 @@ export default class extends Controller {
     this.checkTarget.classList.add("hidden")
   }
 
+  displayTimeFeedback(time_zone = "CST") {
+    this.timeFeedbackTarget.innerHTML = `Let's Schedule! (Time is ${time_zone}) 📅`
+    this.timezoneValueTarget.value = time_zone
+  }
+
   browserSupportsGeolocation() {
     return 'geolocation' in navigator;
   }
@@ -31,24 +36,18 @@ export default class extends Controller {
   }
 
   getUserLocation() {
-    if (!this.browserSupportsGeolocation() || this.buttonIsActivated()) { this.deactivateButton(); return; }
+    if (!this.browserSupportsGeolocation() || this.buttonIsActivated()) { this.displayTimeFeedback(); this.deactivateButton(); return; }
 
     navigator.geolocation.getCurrentPosition((position) => {
-      const { latitude, longitude } = position.coords;
-      console.log(`User's location: ${latitude}, ${longitude}`);
-
-      // Get the user's timezone offset in minutes
-      const timezoneOffset = new Date().getTimezoneOffset();
-      console.log(`User's timezone offset: ${timezoneOffset} minutes`);
-
-      // Adjust the timestamp of the user's request by their timezone offset
-      const timestamp = new Date(Date.now() - (timezoneOffset * 60 * 1000));
-      console.log(`User's local timestamp: ${timestamp}`);
+      // const { latitude, longitude } = position.coords;
+      const time_zone = Intl.DateTimeFormat().resolvedOptions().timeZone;
 
       this.activateButton()
+      this.displayTimeFeedback(time_zone)
     }, (error) => {
       console.error(`Error getting user's location: ${error.message}`);
       this.deactivateButton()
+      this.displayTimeFeedback()
     });
   }
 }

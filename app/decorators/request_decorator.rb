@@ -1,27 +1,13 @@
 class RequestDecorator < BaseDecorator
   def formatted_date
-    date.strftime("%B %d, %Y at %I:%M %p (%Z)")
+    __getobj__.date.strftime("%B %d, %Y at %I:%M %p (%Z)")
   end
 
-  # Example to add a method to a nested model
-  # def customer
-  #   decorate(__getobj__.customer)
-  # end
+  def date_in_specified_timezone
+    __getobj__.date.in_time_zone(__getobj__.timezone)
+  end
 
-  # Example with inherit classes:
-  # class PostDecorator < BaseDecorator
-  #   def self.for(post)
-  #     if post.featured?
-  #       FeaturedPostDecorator
-  #     else
-  #       PostDecorator
-  #     end
-  #   end
-  # end
-
-  # class FeaturedPostDecorator < PostDecorator
-  #   def display_title
-  #     "FEATURED: #{super}"
-  #   end
-  # end
+  def formatted_date_in_specified_timezone
+    date_in_specified_timezone.strftime("%B %d, %Y at %I:%M %p (%Z)")
+  end
 end

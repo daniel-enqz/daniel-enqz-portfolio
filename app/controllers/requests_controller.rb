@@ -3,6 +3,7 @@ class RequestsController < ApplicationController
 
   def create
     @request = Request.new(request_params)
+    pry
     if @request.save
       RequestMailer.received_request(@request).deliver_now
       flash.now[:success] = {message: t(".success"), body: ""}
@@ -19,6 +20,6 @@ class RequestsController < ApplicationController
   private
 
   def request_params
-    params.require(:request).permit(:first_name, :last_name, :email, :subject, :message, :date)
+    params.require(:request).permit(:first_name, :last_name, :email, :subject, :message, :date, :timezone)
   end
 end
