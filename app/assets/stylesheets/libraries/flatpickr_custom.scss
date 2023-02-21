@@ -10,7 +10,6 @@
   .flatpickr-calendar {
     background-color: rgba(255,255,255,0.5);
     margin-top: 20px;
-    padding: 20px;
     border-radius: 25px;
     --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
     --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
@@ -20,10 +19,6 @@
   .flatpickr-calendar.arrowBottom:after, .flatpickr-calendar.arrowBottom:before {
     border-bottom-color: transparent;
     border-top-color: transparent;
-  }
-
-  .flatpickr-next-month, .flatpickr-prev-month {
-    top: 20px;
   }
 
   // General days
@@ -53,7 +48,7 @@
   // Selected Behavior
   .flatpickr-day.selected, .flatpickr-day.selected:hover, .flatpickr-day.selected:focus {
     background-color: rgb(236, 253, 245);
-    border: 2px solid rgb(110, 231, 183);
+    border: 1px solid rgb(110, 231, 183);
     color: #000;
     --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
     --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
