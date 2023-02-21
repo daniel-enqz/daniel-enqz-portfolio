@@ -29,9 +29,9 @@
   }
 
   // Disabled Behavior
-  .flatpickr-day.flatpickr-disabled:hover {
+  .flatpickr-disabled, .flatpickr-disabled:hover {
       background: transparent;
-      color: rgba(57, 57, 57, 0.083);
+      color: rgb(57, 57, 57);
       border-color: transparent;
     }
 
