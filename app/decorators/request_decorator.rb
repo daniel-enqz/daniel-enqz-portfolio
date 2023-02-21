@@ -1,6 +1,6 @@
 class RequestDecorator < BaseDecorator
   def formatted_date
-    date.strftime("%B %d, %Y at %I:%M %p")
+    date.strftime("%B %d, %Y at %I:%M %p (%Z)")
   end
 
   # Example to add a method to a nested model
