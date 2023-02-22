@@ -5,7 +5,7 @@
         <%= f.label :first_name, "First name", class: "block text-sm font-bold text-gray-700" %>
         <p class="hidden text-sm font-bold text-emerald-400 item-animate-right" data-form--validator-target="validField">
           Valid
-          <%= inline_svg_tag("bool/line-check.svg", class: "text-green-400 w-4 h-4 inline-block", aria_hidden: true) %>
+          <%= inline_svg_tag("feedback/line-check.svg", class: "text-green-400 w-4 h-4 inline-block", aria_hidden: true) %>
         </p>
       </div>
       <%= f.text_field :first_name, class: "block w-full rounded-md border-transparent border-2 focus:bg-white focus:border-transparent focus:ring-transparent py-3 px-4 drop-shadow-md  transition ease-in-out delay-100", data: { "form--validator-target": "firstName" } %>
@@ -15,7 +15,7 @@
         <%= f.label :last_name, "Last name", class: "block text-sm font-bold text-gray-700" %>
         <p class="hidden text-sm font-bold text-emerald-400 item-animate-right" data-form--validator-target="validField">
           Valid
-          <%= inline_svg_tag("bool/line-check.svg", class: "text-green-400 w-4 h-4 inline-block", aria_hidden: true) %>
+          <%= inline_svg_tag("feedback/line-check.svg", class: "text-green-400 w-4 h-4 inline-block", aria_hidden: true) %>
         </p>
       </div>
       <%= f.text_field :last_name, class: "block w-full rounded-md border-transparent border-2 focus:bg-white focus:border-transparent focus:ring-transparent py-3 px-4 drop-shadow-md  transition ease-in-out delay-100", data: { "form--validator-target": "lastName" } %>
@@ -26,7 +26,7 @@
       <%= f.label :email, "Email", class: "block text-sm font-bold text-gray-700" %>
       <p class="hidden text-sm font-bold text-emerald-400 item-animate-right" data-form--validator-target="validField">
         Valid
-        <%= inline_svg_tag("bool/line-check.svg", class: "text-green-400 w-4 h-4 inline-block", aria_hidden: true) %>
+        <%= inline_svg_tag("feedback/line-check.svg", class: "text-green-400 w-4 h-4 inline-block", aria_hidden: true) %>
       </p>
   </div>
   <%= f.text_field :email, class: "autofill-color block placeholder:text-slate-400 w-full rounded-md border-transparent border-2 focus:bg-white focus:border-transparent focus:ring-transparent py-3 px-4 drop-shadow-md  transition ease-in-out delay-100", data: { "form--validator-target": "email"}, placeholder: "you@email.com" %>
@@ -36,7 +36,7 @@
       <%= f.label :message, "Message", class: "block text-sm font-bold text-gray-700" %>
       <p class="hidden text-sm font-bold text-emerald-400 item-animate-right" data-form--validator-target="validField">
         Valid
-        <%= inline_svg_tag("bool/line-check.svg", class: "text-green-400 w-4 h-4 inline-block", aria_hidden: true) %>
+        <%= inline_svg_tag("feedback/line-check.svg", class: "text-green-400 w-4 h-4 inline-block", aria_hidden: true) %>
       </p>
       <p class="hidden text-sm font-bold text-red-400 item-animate-right" data-form--validator-target="invalidMessage">
         <%= inline_svg_tag("exclamation.svg", class: "font-bold text-red-400 w-4 h-4 inline-block", aria_hidden: true) %>
@@ -50,7 +50,7 @@
       <%= f.label :rating, "Leave your rating", class: "block text-sm font-bold text-gray-700" %>
       <p class="hidden text-sm font-bold text-emerald-400 item-animate-right" data-form--validator-target="validField">
         Valid
-        <%= inline_svg_tag("bool/line-check.svg", class: "text-green-400 w-4 h-4 inline-block", aria_hidden: true) %>
+        <%= inline_svg_tag("feedback/line-check.svg", class: "text-green-400 w-4 h-4 inline-block", aria_hidden: true) %>
       </p>
     </div>
     <%= f.select :rating, Review::RATING.map { |rating| [rating[0], rating[1]] }, {}, class: "block w-full rounded-md border-transparent border-2 focus:bg-white focus:border-transparent focus:ring-transparent py-3 px-4 drop-shadow-md  transition ease-in-out delay-100", data: { "form--validator-target": "subject" } %>

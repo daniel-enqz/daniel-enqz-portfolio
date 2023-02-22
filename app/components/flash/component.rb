@@ -10,8 +10,8 @@ class Flash::Component < ApplicationViewComponent
     {
       alert: "exclamation.svg",
       notice: "info.svg",
-      error: "bool/cross.svg",
-      success: "bool/check.svg"
+      error: "feedback/cross.svg",
+      success: "feedback/check.svg"
     }[type.to_sym]
   end
 
