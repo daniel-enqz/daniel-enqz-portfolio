@@ -20,7 +20,6 @@ gem "tailwindcss-rails"
 gem "importmap-rails"
 gem "inline_svg"
 gem "view_component"
-gem "sass-rails"
 
 group :development, :test do
   gem "byebug", platforms: %i[mri mingw x64_mingw]
