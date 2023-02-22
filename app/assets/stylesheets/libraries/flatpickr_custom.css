@@ -81,7 +81,3 @@
 .flatpickr-calendar-custom span.flatpickr-day.nextMonthDay.today:not(.selected):hover {
   border: 1px solid #ffffff;
 }
-
-.flatpickr-calendar-custom &.selected:focus {
-  outline: none;
-}
