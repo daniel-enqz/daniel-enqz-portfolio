@@ -3,7 +3,6 @@ class RequestsController < ApplicationController
 
   def create
     @request = Request.new(request_params)
-    pry
     if @request.save
       RequestMailer.received_request(@request).deliver_now
       flash.now[:success] = {message: t(".success"), body: ""}
