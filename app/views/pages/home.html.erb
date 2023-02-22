@@ -4,7 +4,7 @@
   <%= render "tabs" %>
 
   <%= turbo_frame_tag "request_tab" do %>
-    <div class="overflow-hidden bg-white py-16 px-1 lg:px-8 lg:py-24 item-animate" data-tabs-target="requestTab">
+    <div class="overflow-hidden bg-white py-16 px-1 lg:px-8 lg:py-20 item-animate" data-tabs-target="requestTab">
       <%= render partial: "requests/new", locals: {request: @request} %>
     </div>
   <% end %>
