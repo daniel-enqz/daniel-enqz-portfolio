@@ -17,7 +17,7 @@ Rails.application.configure do
   config.action_controller.perform_caching = true
 
   config.action_mailer.delivery_method = :smtp
-  host = "https://daniel-enqz.osc-fr1.scalingo.io"
+  host = "https://daniel-enqz.herokuapp.com"
   config.action_mailer.default_url_options = {host: host}
 
   # SMTP settings for gmail
