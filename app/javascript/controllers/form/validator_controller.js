@@ -13,7 +13,6 @@ export default class extends Controller {
     this.validateInputField(this.emailTarget, this.validateEmailFormat.bind(this));
     this.validateInputField(this.messageTarget, this.validateMessage.bind(this));
     this.validateInputField(this.subjectTarget);
-    this.validateInputField(this.calendarTarget);
   }
 
   addSuccessClasses(field) {
