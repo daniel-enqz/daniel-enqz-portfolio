@@ -1,8 +1,7 @@
 <div class="relative mx-auto max-w-xl">
   <%= render "requests/form_components/title" %>
   <div class="mt-12">
-    <%= form_with model: request, url: requests_path, method: :post, local: true, class: "grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8", data: { controller: "form--validator" } do |f| %>
-      <%= render partial: "requests/form_components/fields", locals: { f: f } %>
-    <% end %>
+    <div class="calendly-inline-widget shadow-lg" data-url="https://calendly.com/daniel-enqz?hide_landing_page_details=1&hide_gdpr_banner=1" style="min-width:320px;height:630px; border-radius: 10px;"></div>
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
   </div>
 </div>
