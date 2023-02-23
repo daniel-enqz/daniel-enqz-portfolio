@@ -9,7 +9,8 @@ class Request < ApplicationRecord
     "Interview Prep",
     "Other"].freeze
 
-  AVAILABLE_TIMES = ["3:00pm",
+  AVAILABLE_TIMES = ["",
+    "3:00pm",
     "3:30pm",
     "4:00pm",
     "4:30pm",

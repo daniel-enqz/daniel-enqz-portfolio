@@ -6,11 +6,9 @@ export default class extends Flatpickr {
 
   initialize() {
     this.config = {
-      enableTime: true,
-      dateFormat: "F j, Y at H:i K",
+      dateFormat: "l, F j, Y",
       inline: true,
       minDate: "today",
-      defaultHour: 15,
       disableMobile: "true",
       onChange: this.onChange.bind(this)
     };
