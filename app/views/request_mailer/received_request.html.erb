@@ -1,23 +1,62 @@
-<div class="max-w-md mx-auto bg-white rounded-lg shadow-lg overflow-hidden">
-  <div class="px-6 py-4">
-    <h2 class="text-2xl font-bold text-gray-800 mb-2">Ready to start learning? 🧠</h2>
-    <p class="text-gray-600 mb-4">Dear <%= @request.first_name %>,</p>
-    <p class="text-gray-900 font-bold mb-2">Your request was received</p>
-    <p class="text-gray-600 mb-4">Subject: <%= @request.subject %>.</p>
-    <p class="text-gray-600 mb-4">Message: <%= @request.message %>.</p>
-    <p class="text-gray-600 mb-4">See you on: <%= @request.formatted_date_in_specified_timezone %>.</p>
-    <a href="https://book.stripe.com/14kcOUevJ14e70Q8ww" class="text-gray-600 mb-4 inline-block">📘 Payment</a>
-  </div>
-  <div class="px-6 py-4 bg-gray-100">
-    <p class="text-gray-800 font-bold mb-2">Join Zoom Meeting:</p>
-    <p class="text-gray-600 mb-4">Topic: Daniel Enríquez's Personal Meeting Room</p>
-    <p class="text-gray-600 mb-4">Meeting ID: 210 888 0881</p>
-    <p class="text-gray-600 mb-4">Passcode: rubberduck</p>
-    <a href="https://us05web.zoom.us/j/2108880881?pwd=eWExT2ZYWlRuY09PdGtaTi85SjN1QT09" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Join Zoom Meeting</a>
-  </div>
-  <div class="px-6 py-4">
-    <p class="text-gray-600 mb-4">See you soon! 💪 </p>
-    <p class="text-gray-600 mb-2">Best regards,</p>
-    <p class="text-gray-600">@daniel_enqz</p>
-  </div>
+<p>
+  Dear <%= @request.first_name %>,
+</p>
+<p class="sm-leading-8" style="margin: 0; margin-bottom: 24px; font-size: 24px; font-weight: 600; color: #000">
+  Ready to start learning? 🧠
+</p>
+<p style="margin: 0; font-weight: 900" class="text-gray-800">Your request was received:</p>
+<ul>
+  <li>
+    <p style="margin: 0;" class="text-gray-600">Subject: <%= @request.subject %>.</p>
+  </li>
+  <li>
+    <p style="margin: 0;" class="text-gray-600">Message: <%= @request.message %>.</p>
+  </li>
+  <li>
+    <p style="margin: 0; margin-bottom: 16px" class="text-gray-600">See you on: <%= @request.formatted_date_in_specified_timezone %>.</p>
+  </li>
+</ul>
+
+
+<div style="line-height: 100%">
+  <a href="https://book.stripe.com/14kcOUevJ14e70Q8ww"" class="hover-bg-indigo-500" style="text-decoration: none; display: inline-block; border-radius: 4px; background-color: #4338ca; padding-left: 16px; padding-right: 16px; padding-top: 14px; padding-bottom: 14px; text-align: center; font-size: 16px; font-weight: 600; color: #fff">
+    <!--[if mso]>
+      <i style="mso-text-raise: 30px; letter-spacing: 24px">&#8202;</i>
+    <![endif]-->
+    <span style="mso-text-raise: 16px">Payment Details &rarr;</span>
+    <!--[if mso]>
+      <i style="letter-spacing: 24px">&#8202;</i>
+    <![endif]-->
+  </a>
+  <a href="https://us05web.zoom.us/j/2108880881?pwd=eWExT2ZYWlRuY09PdGtaTi85SjN1QT09" class="hover-bg-blue-400" style="text-decoration: none; display: inline-block; border-radius: 4px; background-color: #2D8CFF; padding-left: 16px; padding-right: 16px; padding-top: 14px; padding-bottom: 14px; text-align: center; font-size: 16px; font-weight: 600; color: #fff">
+    <!--[if mso]>
+      <i style="mso-text-raise: 30px; letter-spacing: 24px">&#8202;</i>
+    <![endif]-->
+    <span style="mso-text-raise: 16px">Join Zoom Meeting &rarr;</span>
+    <!--[if mso]>
+      <i style="letter-spacing: 24px">&#8202;</i>
+    <![endif]-->
+  </a>
 </div>
+<table role="separator" style="width: 100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td style="padding-top: 32px; padding-bottom: 32px">
+      <div style="height: 1px; background-color: #e2e8f0; line-height: 1px">&zwnj;</div>
+    </td>
+  </tr>
+</table>
+<p style="margin: 0; font-weight: 900" class="text-gray-800">Zoom Meeting Details:</p>
+<ul>
+  <li>
+    <p style="margin: 0;" class="text-gray-600">Meeting ID: 210 888 0881</p>
+  </li>
+  <li>
+    <p style="margin: 0; margin-bottom: 16px" class="text-gray-600">Passcode: rubberduck</p>
+  </li>
+</ul>
+<p style="margin: 0;">
+  See you soon! 💪
+</p>
+<p style="margin: 0; margin-bottom: 16px">
+  Best regards,
+</p>
