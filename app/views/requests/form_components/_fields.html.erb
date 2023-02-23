@@ -54,7 +54,7 @@
       <%= inline_svg_tag("feedback/line-check.svg", class: "text-green-400 w-4 h-4 inline-block", aria_hidden: true) %>
     </p>
     <p class="hidden text-sm font-bold text-red-400 item-animate-right" data-form--validator-target="invalidMessage">
-      <%= inline_svg_tag("exclamation.svg", class: "text-red-400 w-4 h-4 inline-block", aria_hidden: true) %>
+      <%= inline_svg_tag("feedback/exclamation.svg", class: "text-red-400 w-4 h-4 inline-block", aria_hidden: true) %>
       (25 - 500 characters)
     </p>
   </div>
@@ -66,10 +66,6 @@
   <div class="flex justify-between items-center">
     <%= f.label :date, "Let's Schedule! (CST) 📅", class: "block text-sm font-bold text-gray-700", data: { "toggle-target": "timeFeedback" } %>
     <%= f.hidden_field :timezone, data: { "toggle-target": "timezoneValue" } %>
-    <p class="hidden text-sm font-bold text-emerald-400 item-animate-right" data-form--validator-target="validField">
-      Valid
-      <%= inline_svg_tag("feedback/line-check.svg", class: "text-green-400 w-4 h-4 inline-block", aria_hidden: true) %>
-    </p>
   </div>
   <div class="flex items-center justify-between my-2">
     <span class="flex flex-grow flex-col">

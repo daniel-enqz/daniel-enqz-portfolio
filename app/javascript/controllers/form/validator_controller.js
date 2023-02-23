@@ -1,7 +1,7 @@
 import { Controller } from "@hotwired/stimulus"
 
 export default class extends Controller {
-  static targets = ["form", "firstName", "lastName", "email", "message", "calendar", "subject", "validField", "invalidMessage"];
+  static targets = ["form", "firstName", "lastName", "email", "message", "subject", "validField", "invalidMessage"];
 
   connect() {
     this.validateFields();
@@ -75,7 +75,6 @@ export default class extends Controller {
       this.emailTarget,
       this.messageTarget,
       this.subjectTarget,
-      this.calendarTarget
     ].filter(field => field.value === "" || field.classList.contains("bg-red-50"));
 
     this.validFieldTargets.forEach((message) => {
