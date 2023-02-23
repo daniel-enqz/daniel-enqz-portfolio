@@ -10,8 +10,9 @@ export default class extends Flatpickr {
       dateFormat: "F j, Y at H:i K",
       inline: true,
       minDate: "today",
-      defaultHour: 9,
-      defaultMinute: 30,
+      minTime: "15:00",
+      maxTime: "22:00",
+      defaultHour: 15,
       disableMobile: "true",
       onChange: this.onChange.bind(this)
     };
