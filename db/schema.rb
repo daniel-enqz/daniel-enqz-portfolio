@@ -24,8 +24,8 @@ ActiveRecord::Schema[7.0].define(version: 2023_02_23_232617) do
     t.datetime "updated_at", null: false
     t.date "date"
     t.string "timezone", default: "Mexico City"
-    t.string "start_time"
-    t.string "end_time"
+    t.time "start_time"
+    t.time "end_time"
   end
 
   create_table "reviews", force: :cascade do |t|
