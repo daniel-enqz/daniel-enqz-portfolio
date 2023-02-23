@@ -44,6 +44,11 @@
   border-color: transparent;
 }
 
+.flatpickr-day.nextMonthDay,
+.flatpickr-day.prevMonthDay {
+  color: rgb(100, 100, 100);
+}
+
 /* Disabled Behavior */
 .flatpickr-calendar-custom .flatpickr-disabled,
 .flatpickr-calendar-custom .flatpickr-disabled:hover {
