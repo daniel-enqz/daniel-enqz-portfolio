@@ -95,7 +95,7 @@
     </p>
   </div>
   <div class="mt-1">
-    <%= f.select :start_time, Request::AVAILABLE_TIMES {}, class: "block w-full rounded-md  border-transparent border-2 focus:bg-white focus:border-transparent focus:ring-transparent py-3 px-4 drop-shadow-md  transition ease-in-out delay-100", data: { "form--validator-target": "field firstName" } %>
+    <%= f.select :start_time, Request::AVAILABLE_TIMES, {}, class: "block w-full rounded-md  border-transparent border-2 focus:bg-white focus:border-transparent focus:ring-transparent py-3 px-4 drop-shadow-md  transition ease-in-out delay-100", data: { "form--validator-target": "field firstName" } %>
   </div>
 </div>
 <div>
@@ -107,7 +107,7 @@
     </p>
   </div>
   <div class="mt-1">
-    <%= f.select :end_time, Request::AVAILABLE_TIMES {}, class: "block w-full rounded-md border-transparent border-2 focus:bg-white focus:border-transparent focus:ring-transparent py-3 px-4 drop-shadow-md  transition ease-in-out delay-100", data: { "form--validator-target": "lastName" } %>
+    <%= f.select :end_time, Request::AVAILABLE_TIMES, {}, class: "block w-full rounded-md border-transparent border-2 focus:bg-white focus:border-transparent focus:ring-transparent py-3 px-4 drop-shadow-md  transition ease-in-out delay-100", data: { "form--validator-target": "lastName" } %>
   </div>
 </div>
 <div class="sm:col-span-2 place-self-center w-3/4">

@@ -28,14 +28,17 @@ class Request < ApplicationRecord
   validates :message, presence: true
   validates :message, length: {minimum: 25, maximum: 500}
   validates :subject, presence: true, inclusion: {in: SUBJECTS}
-  validates :date, presence: true, availability: true
-  validates :time, presence: true, inclusion: {in: AVAILABLE_TIMES}
+  validates :date, presence: true
+  validates :start_time, presence: true
+  validates :end_time, presence: true
+  validates :date, availability: true
 
   def available_times
     available_times = []
     self.class::AVAILABLE_TIMES.each do |time|
       available_times << time if available_time?(time)
     end
+    available_times
   end
 
   def available_time?(time)
