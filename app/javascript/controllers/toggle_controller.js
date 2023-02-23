@@ -23,7 +23,7 @@ export default class extends Controller {
   }
 
   displayTimeFeedback(time_zone = "CST") {
-    this.timeFeedbackTarget.innerHTML = `Let's Schedule! (Time is ${time_zone}) 📅`
+    this.timeFeedbackTarget.innerHTML = `Let's Schedule! (${time_zone}) 📅`
     this.timezoneValueTarget.value = time_zone
   }
 
