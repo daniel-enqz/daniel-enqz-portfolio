@@ -45,22 +45,28 @@ class Request < ApplicationRecord
   validates :message, presence: true
   validates :message, length: {minimum: 25, maximum: 500}
   validates :subject, presence: true, inclusion: {in: SUBJECTS}
-  validates :date, presence: true
   validates :start_time, presence: true
   validates :end_time, presence: true
-  validates :date, availability: true
+  validates :date, presence: true, availability: true
 
-  def available_times
-    available_times = []
-    self.class::AVAILABLE_TIMES.each do |time|
-      available_times << time if available_time?(time)
-    end
-    available_times
+  def unavailable_times
+    self.class.pluck(:start_time, :end_time).map do |start_time, end_time|
+      (start_time..end_time).to_a
+    end.flatten
   end
 
-  def available_time?(time)
-    !self.class.all.any? do |request|
-      request.date == date && request.time == time
-    end
-  end
+  # def available_times
+  #   available_times = []
+  #   self.class::AVAILABLE_TIMES.each do |time|
+  #     available_times << time if available_time?(time)
+  #   end
+  #   available_times
+  # end
+
+  # def available_time?(time)
+  #   pry
+  #   !self.class.all.any? do |request|
+  #     request.date == date && request.start_time == time
+  #   end
+  # end
 end

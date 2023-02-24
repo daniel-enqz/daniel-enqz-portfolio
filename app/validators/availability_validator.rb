@@ -5,15 +5,12 @@ class AvailabilityValidator < ActiveModel::EachValidator
     return if value.blank?
 
     pry
-    if value < DateTime.current
-      record.errors.add(attribute, "can't be in the past")
-    end
+    record.available_times
 
     if value.saturday? || value.sunday?
       record.errors.add(attribute, "can't be on a weekend")
     end
 
-    pry
     if all_requests_scheduled.include?(value)
       record.errors.add(attribute, "is already scheduled")
     end
