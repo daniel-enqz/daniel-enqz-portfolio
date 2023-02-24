@@ -277,7 +277,6 @@ DEPENDENCIES
   byebug
   capybara
   dry-initializer
-  i18n (= 1.12.0)
   importmap-rails
   inline_svg
   jbuilder

@@ -3,7 +3,6 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.1.2"
 
-gem "i18n", "1.12.0"
 gem "rails", "~> 7.0.4"
 gem "pg", "~> 1.1"
 gem "puma", "~> 5.0"
@@ -14,6 +13,7 @@ gem "jbuilder"
 gem "tzinfo-data", platforms: %i[mingw mswin x64_mingw jruby]
 gem "bootsnap", require: false
 gem "dry-initializer"
+gem "annotate"
 
 # Assets & Frontend
 gem "sprockets-rails"
@@ -31,7 +31,6 @@ group :development, :test do
 end
 
 group :development do
-  gem "annotate"
   gem "letter_opener"
   gem "rack-mini-profiler"
   gem "web-console"
