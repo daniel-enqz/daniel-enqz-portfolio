@@ -1,7 +1,7 @@
 import { Controller } from "@hotwired/stimulus"
 
 export default class extends Controller {
-  static targets = ["form", "firstName", "lastName", "email", "message", "subject", "validField", "invalidMessage"];
+  static targets = ["form", "firstName", "lastName", "email", "message", "subject", "validField", "invalidMessage"]; // input from calendar its also a target
 
   connect() {
     this.validateFields();
