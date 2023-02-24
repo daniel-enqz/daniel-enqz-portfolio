@@ -88,11 +88,14 @@ GEM
       xpath (~> 3.2)
     childprocess (4.1.0)
     coderay (1.1.3)
+    colorize (0.8.1)
     concurrent-ruby (1.1.10)
     crass (1.0.6)
     date (3.3.3)
     dry-initializer (3.1.1)
     erubi (1.10.0)
+    faker (3.1.1)
+      i18n (>= 1.8.11, < 2)
     globalid (1.1.0)
       activesupport (>= 5.0)
     i18n (1.12.0)
@@ -276,7 +279,9 @@ DEPENDENCIES
   bootsnap
   byebug
   capybara
+  colorize
   dry-initializer
+  faker
   importmap-rails
   inline_svg
   jbuilder

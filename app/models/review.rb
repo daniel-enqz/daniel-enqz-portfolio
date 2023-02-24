@@ -12,7 +12,7 @@
 #  updated_at :datetime         not null
 #
 class Review < ApplicationRecord
-  RATING = ["",
+  RATINGS = ["",
     ["⭐️", 1],
     ["⭐️⭐️", 2],
     ["⭐️⭐️⭐️", 3],

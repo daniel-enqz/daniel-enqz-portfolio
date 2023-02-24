@@ -47,7 +47,7 @@ class Request < ApplicationRecord
   validates :subject, presence: true, inclusion: {in: SUBJECTS}
   validates :start_time, presence: true
   validates :end_time, presence: true
-  validates :date, presence: true, availability: true
+  validates :date, presence: true
 
   def unavailable_times
     self.class.pluck(:start_time, :end_time).map do |start_time, end_time|

@@ -4,7 +4,6 @@ class AvailabilityValidator < ActiveModel::EachValidator
   def validate_each(record, attribute, value)
     return if value.blank?
 
-    pry
     record.available_times
 
     if value.saturday? || value.sunday?
@@ -14,6 +13,8 @@ class AvailabilityValidator < ActiveModel::EachValidator
     if all_requests_scheduled.include?(value)
       record.errors.add(attribute, "is already scheduled")
     end
+
+    # Maximum length is 5 hours?
   end
 
   private

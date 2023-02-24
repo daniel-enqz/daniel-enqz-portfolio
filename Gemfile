@@ -34,6 +34,8 @@ group :development do
   gem "letter_opener"
   gem "rack-mini-profiler"
   gem "web-console"
+  gem "colorize"
+  gem "faker"
 end
 
 group :test do
