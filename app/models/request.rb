@@ -26,18 +26,7 @@ class Request < ApplicationRecord
     "Interview Prep",
     "Other"].freeze
 
-  AVAILABLE_TIMES = ["",
-    "3:00pm",
-    "3:30pm",
-    "4:00pm",
-    "4:30pm",
-    "5:00pm",
-    "5:30pm",
-    "6:00pm",
-    "6:30pm",
-    "7:00pm",
-    "7:30pm",
-    "8:00pm"].freeze
+  AVAILABLE_TIMES = [1800, 1830, 1900, 1930, 2000, 2030, 2100, 2130, 2200].freeze
 
   validates :first_name, presence: true
   validates :last_name, presence: true
@@ -50,9 +39,12 @@ class Request < ApplicationRecord
   validates :date, presence: true
 
   def unavailable_times
-    self.class.pluck(:start_time, :end_time).map do |start_time, end_time|
-      (start_time..end_time).to_a
-    end.flatten
+    times = {}
+    self.class.all.map do |request|
+      times[request.date] = [] if times[request.date].nil?
+      times[request.date] << [request.start_time, request.end_time]
+    end
+    times
   end
 
   # def available_times

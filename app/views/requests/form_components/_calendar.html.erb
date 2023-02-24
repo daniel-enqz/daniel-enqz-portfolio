@@ -18,38 +18,40 @@
       </span>
     </button>
   </div>
-  <div class="flatpickr-calendar-custom">
+  <div class="flatpickr-calendar-custom"
+    data-controller="form--availability"
+    data-form--availability-used-days-value="<%= @request.unavailable_times.to_json %>"
+    data-form--availability-default-day-hours-value="<%= Request::AVAILABLE_TIMES %>">
     <%= f.text_field :date,
       class: "block w-full rounded-md border-transparent border-2 focus:bg-white focus:border-transparent focus:ring-transparent py-3 px-4 shadow-md  transition ease-in-out delay-100",
       data: {
         controller: "flatpickr--calendar",
-        "form--validator-target": "input",
+        "flatpickr--calendar-target": "input",
         "form--availability-target": "dateField",
-        "form--availability-unavailable-times": @request.unavailable_times.to_json,
         "action": "form--availability#validate" } %>
   </div>
 </div>
 <div>
   <div class="flex justify-between items-center">
     <%= f.label :start_time, "Start Time", class: "block text-sm font-bold text-gray-700" %>
-    <p class="hidden text-sm font-bold text-emerald-400 item-animate-right" data-form--availability="validField">
+    <p class="hidden text-sm font-bold text-emerald-400 item-animate-right">
       Valid
       <%= inline_svg_tag("feedback/line-check.svg", class: "text-green-400 w-4 h-4 inline-block", aria_hidden: true) %>
     </p>
   </div>
   <div class="mt-1">
-    <%= f.select :start_time, Request::AVAILABLE_TIMES, {}, class: "block w-full rounded-md  border-transparent border-2 focus:bg-white focus:border-transparent focus:ring-transparent py-3 px-4 drop-shadow-md  transition ease-in-out delay-100", data: { "form--availability-target": "startTimeField" } %>
+    <%= f.select :start_time, decorate(@request).friendly_available_times, {}, class: "block w-full rounded-md  border-transparent border-2 focus:bg-white focus:border-transparent focus:ring-transparent py-3 px-4 drop-shadow-md  transition ease-in-out delay-100", id: "start-time-field" %>
   </div>
 </div>
 <div>
   <div class="flex justify-between items-center">
     <%= f.label :end_time, "End Time", class: "block text-sm font-bold text-gray-700" %>
-    <p class="hidden text-sm font-bold text-emerald-400 item-animate-right" data-form--availability="validField">
+    <p class="hidden text-sm font-bold text-emerald-400 item-animate-right">
       Valid
       <%= inline_svg_tag("feedback/line-check.svg", class: "text-green-400 w-4 h-4 inline-block", aria_hidden: true) %>
     </p>
   </div>
   <div class="mt-1">
-    <%= f.select :end_time, Request::AVAILABLE_TIMES, {}, class: "block w-full rounded-md border-transparent border-2 focus:bg-white focus:border-transparent focus:ring-transparent py-3 px-4 drop-shadow-md  transition ease-in-out delay-100", data: { "form--availability-target": "endTimeField" } %>
+    <%= f.select :end_time, decorate(@request).friendly_available_times, {}, class: "block w-full rounded-md border-transparent border-2 focus:bg-white focus:border-transparent focus:ring-transparent py-3 px-4 drop-shadow-md  transition ease-in-out delay-100", id: "end-time-field"  %>
   </div>
 </div>
