@@ -1,3 +1,20 @@
+# == Schema Information
+#
+# Table name: requests
+#
+#  id         :bigint           not null, primary key
+#  date       :date
+#  email      :string
+#  end_time   :time
+#  first_name :string
+#  last_name  :string
+#  message    :text
+#  start_time :time
+#  subject    :string
+#  timezone   :string           default("Mexico City")
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
 class Request < ApplicationRecord
   SUBJECTS = ["",
     "Project Review",
