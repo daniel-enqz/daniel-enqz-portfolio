@@ -20,6 +20,7 @@
   </div>
   <div class="flatpickr-calendar-custom"
     data-controller="form--availability"
+    <%= raise %>
     data-form--availability-used-days-value="<%= @request.unavailable_times.to_json %>"
     data-form--availability-default-day-hours-value="<%= Request::AVAILABLE_TIMES %>">
     <%= f.text_field :date,
